@@ -22,7 +22,7 @@ class PPO():
 
         self.optimiser = torch.optim.Adam(actor_critic.parameters(), lr=args.lr, eps=args.eps)
 
-    def update(self, rollout_storage):
+    def update(self, rollout_storage, logger=None):
         value_loss_epoch = 0
         action_loss_epoch = 0
         entropy_loss_epoch = 0

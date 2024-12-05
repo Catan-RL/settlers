@@ -1,23 +1,35 @@
 import copy
+
 import numpy as np
 
 
-def run_evaluation_protocol(evaluation_manager, central_policy, earlier_policies, random_policy, args, update_num):
+def run_evaluation_protocol(
+    evaluation_manager,
+    central_policy,
+    earlier_policies,
+    random_policy,
+    args,
+    update_num,
+    logger=None,
+):
 
     policies_to_play_against = [random_policy]
     opponent_policy_ids = ["random"]
-    # if len(earlier_policies) >= 25:
-    #     policies_to_play_against.append(earlier_policies[-25])
-    #     opponent_policy_ids.append("25 updates ago")
-    # if len(earlier_policies) >= 50:
-    #     policies_to_play_against.append(earlier_policies[-50])
-    #     opponent_policy_ids.append("500 updates ago")
-    # if len(earlier_policies) >= 75:
-    #     policies_to_play_against.append(earlier_policies[-75])
-    #     opponent_policy_ids.append("75 updates ago")
-    # if len(earlier_policies) >= 100:
-    #     policies_to_play_against.append(earlier_policies[-100])
-    #     opponent_policy_ids.append("1000 updates ago")
+    # NOTE: added these back in (they were commented out before)
+    if len(earlier_policies) >= 25:
+        policies_to_play_against.append(earlier_policies[-25])
+        opponent_policy_ids.append("25 updates ago")
+    if len(earlier_policies) >= 50:
+        policies_to_play_against.append(earlier_policies[-50])
+        opponent_policy_ids.append("500 updates ago")
+    if len(earlier_policies) >= 75:
+        policies_to_play_against.append(earlier_policies[-75])
+        opponent_policy_ids.append("75 updates ago")
+    if len(earlier_policies) >= 100:
+        policies_to_play_against.append(earlier_policies[-100])
+        opponent_policy_ids.append("1000 updates ago")
+
+    print(f"opponent_policy_ids: {opponent_policy_ids}")
 
     log = {"update": update_num}
 
@@ -29,12 +41,18 @@ def run_evaluation_protocol(evaluation_manager, central_policy, earlier_policies
     central_policy.to("cpu")
 
     for i, policy in enumerate(policies_to_play_against):
-        policies = [copy.deepcopy(central_policy.state_dict()), copy.deepcopy(policies_to_play_against[i]),
-                    copy.deepcopy(policies_to_play_against[i]), copy.deepcopy(policies_to_play_against[i])]
+        policies = [
+            copy.deepcopy(central_policy.state_dict()),
+            copy.deepcopy(policies_to_play_against[i]),
+            copy.deepcopy(policies_to_play_against[i]),
+            copy.deepcopy(policies_to_play_against[i]),
+        ]
 
         evaluation_manager.update_policies(policies)
 
-        results = evaluation_manager.run_evaluation_episodes(args.num_eval_episodes)
+        results = evaluation_manager.run_evaluation_episodes(
+            args.num_eval_episodes
+        )
         results = list(zip(*results))
 
         winners = np.concatenate(results[0])
@@ -46,14 +64,35 @@ def run_evaluation_protocol(evaluation_manager, central_policy, earlier_policies
             "policy_win_frac": np.mean(winners == 0),
             "avg_game_length": np.mean(game_lengths),
             "avg_policy_decisions": np.mean(policy_steps),
-            "avg_victory_points": np.mean(victory_points)
+            "avg_victory_points": np.mean(victory_points),
         }
 
-        opponent_str = "random" if i == 0 else "policy from "+opponent_policy_ids[i]
-        print_str += "{} games against {}. Policy won {}/{}. Avg. game length: {}. Avg num policy decisions: {}. Avg victory points for policy: {}. \n".format(
-            args.num_eval_episodes, opponent_str, int(np.sum(winners == 0)), args.num_eval_episodes,
-            np.mean(game_lengths), np.mean(policy_steps), np.mean(victory_points)
+        opponent_str = (
+            "random" if i == 0 else "policy from " + opponent_policy_ids[i]
         )
+        print_str += "{} games against {}. Policy won {}/{}. Avg. game length: {}. Avg num policy decisions: {}. Avg victory points for policy: {}. \n".format(
+            args.num_eval_episodes,
+            opponent_str,
+            int(np.sum(winners == 0)),
+            args.num_eval_episodes,
+            np.mean(game_lengths),
+            np.mean(policy_steps),
+            np.mean(victory_points),
+        )
+
+        if logger is not None:
+            logger.log(
+                "run_evaluation_protocol",
+                update_num=update_num,
+                opponent_policy_id=opponent_policy_ids[i],
+                num_eval_episodes=args.num_eval_episodes,
+                policy_win_frac=np.mean(winners == 0) / args.num_eval_episodes,
+                avg_game_length=np.mean(game_lengths),
+                avg_num_policy_decisions=np.mean(policy_steps),
+                avg_victory_points=np.mean(victory_points),
+            )
+        else:
+            print("WARNING: No logger provided. Not logging results.")
 
     print_str += "\n"
 

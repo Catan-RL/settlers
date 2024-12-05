@@ -1,28 +1,33 @@
-import os
-import time
-import numpy as np
-import random
-import torch
 import copy
-import psutil
-
+import os
+import random
+import time
 from collections import deque
 
-import RL.ppo.utils as utils
+# disable the pygame support prompt
+os.environ["PYGAME_HIDE_SUPPORT_PROMPT"] = "1"
 
-from RL.ppo.arguments import get_args
-from RL.ppo.game_manager import make_game_manager
-from RL.ppo.vec_gather_experience import SubProcGameManager
+
+import numpy as np
+import psutil
+import torch
+
+import RL.ppo.utils as utils
+from RL.metrics_logger import MetricsLogger
 from RL.models.build_agent_model import build_agent_model
-from RL.ppo.process_batch import BatchProcessor
-from RL.ppo.update_opponent_policies import update_opponent_policies
-from RL.ppo.run_evaluation_protocol import run_evaluation_protocol
-from RL.ppo.ppo import PPO
-from RL.ppo.vec_evaluation import SubProcEvaluationManager
+from RL.ppo.arguments import get_args
 from RL.ppo.evaluation_manager import make_evaluation_manager
+from RL.ppo.game_manager import make_game_manager
+from RL.ppo.ppo import PPO
+from RL.ppo.process_batch import BatchProcessor
+from RL.ppo.run_evaluation_protocol import run_evaluation_protocol
+from RL.ppo.update_opponent_policies import update_opponent_policies
+from RL.ppo.vec_evaluation import SubProcEvaluationManager
+from RL.ppo.vec_gather_experience import SubProcGameManager
 
 update_num, rollout_manager, evaluation_manager = None, None, None
 DEBUG = False
+
 
 def main():
     global update_num, rollout_manager, evaluation_manager
@@ -41,18 +46,32 @@ def main():
     experiment_dir = "RL/results"
     os.makedirs(experiment_dir, exist_ok=True)
 
+    logger = MetricsLogger()
+    args_dict = vars(args)
+    logger.log("arguments", **args_dict)
+
     # torch.set_num_threads(1)
     device = torch.device("cuda:0" if args.cuda else "cpu")
+    print(f"Using device: {device}")
 
     rollout_manager_fns = [
-        make_game_manager(args.num_envs_per_process, args.num_steps) for _ in range(args.num_processes)
+        make_game_manager(args.num_envs_per_process, args.num_steps)
+        for _ in range(args.num_processes)
     ]
     rollout_manager = SubProcGameManager(rollout_manager_fns)
 
     central_policy = build_agent_model(device=device)
 
     if args.load_from_checkpoint:
-        central_policy_sd, earlier_policies, eval_logs, start_update, args, entropy_coef, rew_anneal_fac = torch.load("RL/results/"+args.load_file_path)
+        (
+            central_policy_sd,
+            earlier_policies,
+            eval_logs,
+            start_update,
+            args,
+            entropy_coef,
+            rew_anneal_fac,
+        ) = torch.load("RL/results/" + args.load_file_path)
         update_opponent_policies(earlier_policies, rollout_manager, args)
         central_policy.load_state_dict(central_policy_sd)
         central_policy.to("cpu")
@@ -76,7 +95,9 @@ def main():
     random_policy = copy.deepcopy(random_policy_model.state_dict())
     del random_policy_model
 
-    rollout_storage = BatchProcessor(args, central_policy.lstm_size, device=device)
+    rollout_storage = BatchProcessor(
+        args, central_policy.lstm_size, device=device
+    )
 
     agent = PPO(central_policy, args)
 
@@ -89,14 +110,26 @@ def main():
     evaluation_manager = SubProcEvaluationManager(eval_manager_fns)
 
     start_time = time.time()
-    num_updates = int(args.total_env_steps) // args.num_steps // (args.num_processes * args.num_envs_per_process)
-    steps_per_update = int(args.num_steps * args.num_processes * args.num_envs_per_process)
+    num_updates = (
+        int(args.total_env_steps)
+        // args.num_steps
+        // (args.num_processes * args.num_envs_per_process)
+    )
+    steps_per_update = int(
+        args.num_steps * args.num_processes * args.num_envs_per_process
+    )
+
+    print(
+        f"Running for {num_updates} updates; {steps_per_update} steps per update"
+    )
 
     def run_update():
         global update_num, curr_entropy_coef, curr_reward_weight
 
         if args.use_linear_lr_decay:
-            utils.update_linear_schedule(agent.optimiser, update_num, num_updates, args.lr)
+            utils.update_linear_schedule(
+                agent.optimiser, update_num, num_updates, args.lr
+            )
 
         rollouts = rollout_manager.gather_rollouts()
         rollout_storage.process_rollouts(rollouts)
@@ -107,56 +140,115 @@ def main():
         rollout_manager.update_policy(central_policy.state_dict(), policy_id=0)
         central_policy.to(device)
 
-        #anneal dense reward/ entropy coef
-        if update_num > args.entropy_coef_start_anneal and update_num <= args.entropy_coef_end_anneal:
+        # anneal dense reward/ entropy coef
+        if (
+            update_num > args.entropy_coef_start_anneal
+            and update_num <= args.entropy_coef_end_anneal
+        ):
             start_update = args.entropy_coef_start_anneal
             end_update = args.entropy_coef_end_anneal
             start_value = args.entropy_coef_start
             end_value = args.entropy_coef_final
 
-            value = start_value + ((update_num - start_update) / (end_update - start_update)) * (end_value - start_value)
+            value = start_value + (
+                (update_num - start_update) / (end_update - start_update)
+            ) * (end_value - start_value)
             agent.entropy_coef = value
             curr_entropy_coef = value
 
-        if update_num > args.dense_reward_anneal_start and update_num <= args.dense_reward_anneal_end:
+        if (
+            update_num > args.dense_reward_anneal_start
+            and update_num <= args.dense_reward_anneal_end
+        ):
             start_update = args.dense_reward_anneal_start
             end_update = args.dense_reward_anneal_end
-            value = 1.0 + ((update_num - start_update) / (end_update - start_update)) * (0.0 - 1.0)
+            value = 1.0 + (
+                (update_num - start_update) / (end_update - start_update)
+            ) * (0.0 - 1.0)
             rollout_manager.update_annealing_factor(value)
             curr_reward_weight = value
 
         t_current = time.time()
         print(
             "Updates complete: {}. Total policy steps: {}. Number of games complete: {}. Total elapsed time: {} hours.".format(
-                update_num+1, steps_per_update * (update_num+1), rollout_storage.games_complete,
-                            (t_current - start_time) / 3600.0
-            ))
+                update_num + 1,
+                steps_per_update * (update_num + 1),
+                rollout_storage.games_complete,
+                (t_current - start_time) / 3600.0,
+            )
+        )
 
         if update_num % args.add_policy_every == 0 and update_num > 0:
+            print("Adding policy to earlier policies.")
             central_policy.to("cpu")
             earlier_policies.append(copy.deepcopy(central_policy.state_dict()))
             central_policy.to(device)
 
         if update_num % args.update_opponent_policies_every == 0:
+            print("Updating opponent policies.")
             update_opponent_policies(earlier_policies, rollout_manager, args)
 
         if update_num % args.eval_every == 0 and update_num > 0:
-            log, print_summary = run_evaluation_protocol(evaluation_manager, central_policy, earlier_policies,
-                                                         random_policy, args, update_num, curr_entropy_coef, curr_reward_weight)
+            log, print_summary = run_evaluation_protocol(
+                evaluation_manager,
+                central_policy,
+                earlier_policies,
+                random_policy,
+                args,
+                update_num,
+                logger,
+            )
             eval_logs.append(log)
 
             print(print_summary)
 
-            torch.save(central_policy.state_dict(),
-                       "RL/results/" + args.expt_id + "_after_update_" + str(update_num) + ".pt")
+            torch.save(
+                central_policy.state_dict(),
+                "RL/results/"
+                + args.expt_id
+                + "_after_update_"
+                + str(update_num)
+                + ".pt",
+            )
 
         update_num += 1
 
-        torch.save((central_policy.state_dict(), earlier_policies, eval_logs, update_num, args),
-                   "RL/results/current.pt")
+        try:
+            _ = curr_entropy_coef
+        except NameError:
+            curr_entropy_coef = None
+        try:
+            _ = curr_reward_weight
+        except NameError:
+            curr_reward_weight = None
+
+        logger.log(
+            "robust_train",
+            num_games_complete=rollout_storage.games_complete,
+            update_num=update_num,
+            val_loss=val_loss,
+            action_loss=action_loss,
+            entropy_loss=entropy_loss,
+            total_policy_steps=steps_per_update * (update_num + 1),
+            total_elapsed_time=(t_current - start_time) / 3600.0,
+            curr_entropy_coef=curr_entropy_coef,
+            curr_reward_weight=curr_reward_weight,
+        )
+        torch.save(
+            (
+                central_policy.state_dict(),
+                earlier_policies,
+                eval_logs,
+                update_num,
+                args,
+            ),
+            "RL/results/current.pt",
+        )
 
     def fail_handler():
-        print("Error or update exceeded specified timeout (something broke). Attempting to reinitialise everything and continue training!")
+        print(
+            "Error or update exceeded specified timeout (something broke). Attempting to reinitialise everything and continue training!"
+        )
 
         global rollout_manager, evaluation_manager
         for process in rollout_manager.processes:
@@ -174,15 +266,14 @@ def main():
 
         print("Environments reinitialised - continuing training.")
 
-
     while update_num < num_updates:
 
         run_update()
 
         if psutil.virtual_memory().percent > 95.0:
-            #stupid memory leak - need to restart everything using a bash script as a workaround... actually should be fixed now but meh
+            # stupid memory leak - need to restart everything using a bash script as a workaround... actually should be fixed now but meh
             fail_handler()
-            os.system('kill %d' % os.getpid())
+            os.system("kill %d" % os.getpid())
 
 
 if __name__ == "__main__":

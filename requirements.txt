@@ -1,0 +1,22 @@
+# if pip install -r requirements.txt fails, try installing setuptools and pip first, then rerun
+setuptools==58.0.4
+pip<24.1
+
+# please ensure you install torch first, by running this command (inside conda env):
+# linux: pip install torch torchvision torchaudio
+# windows: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+# note, then, that torch and numpy are required as listed below, but should be installed first to ensure a CUDA compatible version is installed
+numpy
+torch
+
+pygame==2.1.2
+stable_baselines3==1.4.0
+psutil
+
+gym<0.19.0
+# if gym fails, try explictly requiring this version:
+# gym==0.17.3
+
+# same with these, only uncomment if they fail
+# pillow==11.0.0
+# pip==24.0

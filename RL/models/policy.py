@@ -176,7 +176,7 @@ class SettlersAgentPolicy(nn.Module):
                     obs[key][k] = torch.tensor(obs[key][k], dtype=torch.long, device=self.dummy_param.device)
             else:
                 obs[key] = [torch.tensor(obs[key], dtype=torch.long, device=self.dummy_param.device)]
-        obs["tile_representations"] = torch.tensor(obs["tile_representations"], dtype=torch.float32,
+        obs["tile_representations"] = torch.tensor(np.array(obs["tile_representations"]), dtype=torch.float32,
                                                    device=self.dummy_param.device)
         if len(obs["tile_representations"].shape) == 2:
             obs["tile_representations"] = obs["tile_representations"].unsqueeze(0)

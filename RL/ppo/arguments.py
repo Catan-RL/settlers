@@ -43,7 +43,7 @@ def get_args():
         '--max-grad-norm', type=float, default=0.5
     )
     parser.add_argument(
-        '--seed', type=int, default=0
+        '--seed', type=int, default=100
     )
     parser.add_argument(
         '--num-processes', type=int, default=128
@@ -58,7 +58,7 @@ def get_args():
         '--truncated-seq-len', type=int, default=10
     )
     parser.add_argument(
-        '--ppo-epoch', type=int, default=10
+        '--ppo-epoch', type=int, default=10, help='number of epochs to train PPO each update'
     )
     parser.add_argument(
         '--num-mini-batch', type=int, default=64
@@ -88,10 +88,10 @@ def get_args():
         '--update-opponent-policies-every', type=int, default=1
     )
     parser.add_argument(
-        '--eval-every', type=int, default=25
+        '--eval-every', type=int, default=25, help='evaluate every this many updates'
     )
     parser.add_argument(
-        '--num-eval-episodes', type=int, default=128
+        '--num-eval-episodes', type=int, default=64, help='number of episodes to evaluate each policy on'
     )
     parser.add_argument(
         '--num-eval-processes', type=int, default=16
