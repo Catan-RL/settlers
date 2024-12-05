@@ -29,8 +29,7 @@ def run_evaluation_protocol(
         policies_to_play_against.append(earlier_policies[-100])
         opponent_policy_ids.append("100 updates ago")
 
-    print(f"opponent_policy_ids: {opponent_policy_ids}")
-    print(len(policies_to_play_against))
+    print(f"Playing against opponents: {opponent_policy_ids}")
 
     log = {"update": update_num}
 

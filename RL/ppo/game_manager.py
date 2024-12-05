@@ -8,12 +8,15 @@ from env.wrapper import EnvWrapper
 from game.enums import PlayerId
 
 class GamesAndPoliciesManager(object):
-    def __init__(self, num_envs=1, num_steps=20, policy_kwargs={}):
+    def __init__(self, num_envs=1, num_steps=20, policy_kwargs={}, env_kwargs=None):
         self.num_envs = num_envs
         self.num_steps = num_steps
 
+        if env_kwargs is None:
+            env_kwargs = {}
+
         self.policies = [build_agent_model(**policy_kwargs) for _ in range(4)]
-        self.envs = [EnvWrapper() for _ in range(num_envs)]
+        self.envs = [EnvWrapper(**env_kwargs) for _ in range(num_envs)]
         self.device = self.policies[0].dummy_param.device
 
         self.initialise()
@@ -165,8 +168,10 @@ class GamesAndPoliciesManager(object):
         for env in self.envs:
             env.reward_annealing_factor = annealing_factor
 
-def make_game_manager(num_envs, num_steps):
+def make_game_manager(num_envs, num_steps, env_kwargs = None):
+    if env_kwargs is None:
+        env_kwargs = {}
     def _thunk():
-        manager = GamesAndPoliciesManager(num_envs=num_envs, num_steps=num_steps)
+        manager = GamesAndPoliciesManager(num_envs=num_envs, num_steps=num_steps, env_kwargs=env_kwargs)
         return manager
     return _thunk

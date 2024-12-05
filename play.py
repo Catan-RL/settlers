@@ -23,6 +23,8 @@ if __name__ == "__main__":
     parser.add_argument('--max-depth', type=int, default=15, help="number of decisions forward search simulations go.")
     parser.add_argument('--dont-consider-all-opening-moves', action='store_true', default=False, help="by default in initial placement phase, forward search considers all possible moves. requires more thinking time for these decisions.")
     parser.add_argument('--trades-on', action='store_true', default=False, help="turn trades on (agents are not generally very good at trading which can be annoying...)")
+    parser.add_argument('--max-victory-points', type=int, default=4, help="end the game at this man vps")
+
     args = parser.parse_args()
 
     policies = {}
@@ -59,6 +61,6 @@ if __name__ == "__main__":
         max_trades = 4
     else:
         max_trades = 0
-    env = EnvWrapper(policies=policies, max_proposed_trades_per_turn=max_trades)
+    env = EnvWrapper(policies=policies, max_proposed_trades_per_turn=max_trades, max_victory_points=args.max_victory_points)
     env.reset()
-    display = Display(env=env, game=env.game, interactive=True, policies=policies, test=False, debug_mode=False)
+    display = Display(env=env, game=env.game, interactive=True, policies=policies, test=True, debug_mode=False)

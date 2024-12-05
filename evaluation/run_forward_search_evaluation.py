@@ -23,6 +23,7 @@ parser.add_argument('--dont-propose-devcards', action='store_true', default=Fals
 parser.add_argument('--dont-propose-trades', action='store_true', default=False)
 parser.add_argument('--zero-opponent-hidden-states', action='store_true', default=False)
 parser.add_argument('--other-policies', type=str, default="")
+parser.add_argument('--max-victory-points', type=int, default=4, help="end the game at this man vps")
 
 args = parser.parse_args()
 
@@ -54,7 +55,7 @@ if __name__ == "__main__":
     for i in range(1, 4):
         policies[i].load_state_dict(other_policy_state_dicts[i-1])
 
-    evaluation_manager = EvaluationManager(policies=policies)
+    evaluation_manager = EvaluationManager(policies=policies, env_kwargs={"max_victory_points": args.max_victory_points})
 
     winners_all = []
     num_game_steps_all = []

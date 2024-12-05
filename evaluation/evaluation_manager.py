@@ -10,14 +10,16 @@ from game.enums import PlayerId
 
 
 class EvaluationManager(object):
-    def __init__(self, policies=None, policy_kwargs={}, detailed_logging=False):
+    def __init__(self, policies=None, policy_kwargs={}, detailed_logging=False, env_kwargs=None):
+        if env_kwargs is None:
+            env_kwargs = {}
         self.detailed_logging = detailed_logging
 
         if policies is not None:
             self.policies = policies
         else:
             self.policies = [build_agent_model(**policy_kwargs) for _ in range(4)]
-        self.env = EnvWrapper()
+        self.env = EnvWrapper(**env_kwargs)
         self.device = self.policies[0].dummy_param.device
 
     def reset(self):
@@ -147,8 +149,10 @@ class EvaluationManager(object):
             self.policies[i].load_state_dict(state_dicts[i])
 
 
-def make_evaluation_manager():
+def make_evaluation_manager(env_kwargs=None):
+    if env_kwargs is None:
+        env_kwargs = {}
     def _thunk():
-        manager = EvaluationManager()
+        manager = EvaluationManager(**env_kwargs)
         return manager
     return _thunk

@@ -55,7 +55,7 @@ def main():
     print(f"Using device: {device}")
 
     rollout_manager_fns = [
-        make_game_manager(args.num_envs_per_process, args.num_steps)
+            make_game_manager(args.num_envs_per_process, args.num_steps, env_kwargs={"max_victory_points": args.max_victory_points})
         for _ in range(args.num_processes)
     ]
     rollout_manager = SubProcGameManager(rollout_manager_fns)
@@ -105,7 +105,7 @@ def main():
     rollout_manager.update_annealing_factor(curr_reward_weight)
 
     eval_manager_fns = [
-        make_evaluation_manager() for _ in range(args.num_eval_processes)
+        make_evaluation_manager(env_kwargs={"max_victory_points": args.max_victory_points}) for _ in range(args.num_eval_processes)
     ]
     evaluation_manager = SubProcEvaluationManager(eval_manager_fns)
 

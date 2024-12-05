@@ -10,7 +10,7 @@ N_TILES = 19
 
 class EnvWrapper(object):
     def __init__(self, interactive=False, max_actions_per_turn=None, max_proposed_trades_per_turn = 4,
-                 validate_actions=True, debug_mode=False, win_reward=500, dense_reward=False, policies=None):
+                 validate_actions=True, debug_mode=False, win_reward=500, dense_reward=False, policies=None, max_victory_points=10):
         if max_actions_per_turn is None:
             self.max_actions_per_turn = np.inf
         else:
@@ -26,6 +26,8 @@ class EnvWrapper(object):
         self.win_reward = win_reward
         self.dense_reward = dense_reward
         self.reward_annealing_factor = 1.0
+
+        self.max_victory_points = max_victory_points
 
     def reset(self):
         self.game.reset()
@@ -86,7 +88,7 @@ class EnvWrapper(object):
         done = False
         rewards = {player: 0 for player in [PlayerId.White, PlayerId.Red, PlayerId.Blue, PlayerId.Orange]}
         for id, player in self.game.players.items():
-            if player.victory_points >= 10:
+            if player.victory_points >= self.max_victory_points:
                 done = True
                 self.winner = player
         updated_vps = {}
@@ -587,7 +589,7 @@ class EnvWrapper(object):
         """victory points"""
         victory_points = np.zeros((10,))
         vps = target_player.victory_points
-        if vps < 10:
+        if vps < self.max_victory_points:
             victory_points[vps] = 1.0
         else:
             victory_points[-1] = 1.0
