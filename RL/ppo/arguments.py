@@ -46,13 +46,16 @@ def get_args():
         '--seed', type=int, default=100
     )
     parser.add_argument(
-        '--num-processes', type=int, default=128
+        '--num-processes', type=int, default=32
+        #'--num-processes', type=int, default=1
     )
     parser.add_argument(
         '--num-envs-per-process', type=int, default=5
+        #'--num-envs-per-process', type=int, default=1
     )
     parser.add_argument(
-        '--num-steps', type=int, default=200
+        '--num-steps', type=int, default=20
+        #'--num-steps', type=int, default=2
     )
     parser.add_argument(
         '--truncated-seq-len', type=int, default=10
@@ -61,13 +64,15 @@ def get_args():
         '--ppo-epoch', type=int, default=10, help='number of epochs to train PPO each update'
     )
     parser.add_argument(
-        '--num-mini-batch', type=int, default=64
+        '--num-mini-batch', type=int, default=32
+        #'--num-mini-batch', type=int, default=1
     )
     parser.add_argument(
         '--clip-param', type=float, default=0.2
     )
     parser.add_argument(
         '--total-env-steps', type=int, default=1e9
+        #'--total-env-steps', type=int, default=120
     )
     parser.add_argument(
         '--recompute-returns', action='store_true', default=True
@@ -83,6 +88,7 @@ def get_args():
     )
     parser.add_argument(
         '--add-policy-every', type=int, default=4, help='add new policy every this many updates'
+        #'--add-policy-every', type=int, default=1, help='add new policy every this many updates'
     )
     parser.add_argument(
         '--update-opponent-policies-every', type=int, default=1
@@ -91,10 +97,12 @@ def get_args():
         '--eval-every', type=int, default=25, help='evaluate every this many updates'
     )
     parser.add_argument(
-        '--num-eval-episodes', type=int, default=64, help='number of episodes to evaluate each policy on'
+        '--num-eval-episodes', type=int, default=32, help='number of episodes to evaluate each policy on'
+        #'--num-eval-episodes', type=int, default=2, help='number of episodes to evaluate each policy on'
     )
     parser.add_argument(
-        '--num-eval-processes', type=int, default=16
+        '--num-eval-processes', type=int, default=32
+        #'--num-eval-processes', type=int, default=2
     )
     parser.add_argument(
         '--load-from-checkpoint', action='store_true', default=False

@@ -21,15 +21,16 @@ def run_evaluation_protocol(
         opponent_policy_ids.append("25 updates ago")
     if len(earlier_policies) >= 50:
         policies_to_play_against.append(earlier_policies[-50])
-        opponent_policy_ids.append("500 updates ago")
-    if len(earlier_policies) >= 75:
-        policies_to_play_against.append(earlier_policies[-75])
-        opponent_policy_ids.append("75 updates ago")
+        opponent_policy_ids.append("50 updates ago")
+    # if len(earlier_policies) >= 75:
+    #     policies_to_play_against.append(earlier_policies[-75])
+    #     opponent_policy_ids.append("75 updates ago")
     if len(earlier_policies) >= 100:
         policies_to_play_against.append(earlier_policies[-100])
-        opponent_policy_ids.append("1000 updates ago")
+        opponent_policy_ids.append("100 updates ago")
 
     print(f"opponent_policy_ids: {opponent_policy_ids}")
+    print(len(policies_to_play_against))
 
     log = {"update": update_num}
 

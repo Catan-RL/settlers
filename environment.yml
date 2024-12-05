@@ -1,0 +1,7 @@
+name: settlers_of_catan_RL
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+
+prefix: "/home/ani/micromamba/envs/settlers_of_catan_RL"
