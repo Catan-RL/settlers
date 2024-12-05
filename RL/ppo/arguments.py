@@ -43,7 +43,7 @@ def get_args():
         '--max-grad-norm', type=float, default=0.5
     )
     parser.add_argument(
-        '--seed', type=int, default=100
+        '--seed', type=int, default=101
     )
     parser.add_argument(
         '--num-processes', type=int, default=32
@@ -54,17 +54,17 @@ def get_args():
         #'--num-envs-per-process', type=int, default=1
     )
     parser.add_argument(
-        '--num-steps', type=int, default=20
+        '--num-steps', type=int, default=30
         #'--num-steps', type=int, default=2
     )
     parser.add_argument(
         '--truncated-seq-len', type=int, default=10
     )
     parser.add_argument(
-        '--ppo-epoch', type=int, default=10, help='number of epochs to train PPO each update'
+        '--ppo-epoch', type=int, default=15, help='number of epochs to train PPO each update'
     )
     parser.add_argument(
-        '--num-mini-batch', type=int, default=32
+        '--num-mini-batch', type=int, default=16
         #'--num-mini-batch', type=int, default=1
     )
     parser.add_argument(
