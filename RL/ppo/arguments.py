@@ -47,15 +47,15 @@ def get_args():
     )
     parser.add_argument(
         '--num-processes', type=int, default=32
-        #'--num-processes', type=int, default=1
+        # '--num-processes', type=int, default=1
     )
     parser.add_argument(
         '--num-envs-per-process', type=int, default=5
-        #'--num-envs-per-process', type=int, default=1
+        # '--num-envs-per-process', type=int, default=1
     )
     parser.add_argument(
         '--num-steps', type=int, default=30
-        #'--num-steps', type=int, default=2
+        # '--num-steps', type=int, default=2
     )
     parser.add_argument(
         '--truncated-seq-len', type=int, default=10
@@ -65,14 +65,14 @@ def get_args():
     )
     parser.add_argument(
         '--num-mini-batch', type=int, default=16
-        #'--num-mini-batch', type=int, default=1
+        # '--num-mini-batch', type=int, default=1
     )
     parser.add_argument(
         '--clip-param', type=float, default=0.2
     )
     parser.add_argument(
         '--total-env-steps', type=int, default=1e9
-        #'--total-env-steps', type=int, default=120
+        # '--total-env-steps', type=int, default=5
     )
     parser.add_argument(
         '--recompute-returns', action='store_true', default=True
@@ -95,6 +95,7 @@ def get_args():
     )
     parser.add_argument(
         '--eval-every', type=int, default=25, help='evaluate every this many updates'
+        # '--eval-every', type=int, default=1, help='evaluate every this many updates'
     )
     parser.add_argument(
         '--num-eval-episodes', type=int, default=32, help='number of episodes to evaluate each policy on'
@@ -115,6 +116,9 @@ def get_args():
     ),
     parser.add_argument(
         '--update_timeout', type=int, default=15
+    )
+    parser.add_argument(
+        '--max-victory-points', type=int, default=4
     )
 
     args = parser.parse_args()
