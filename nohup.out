@@ -1,0 +1,2097 @@
+
+================================================================================================================================
+
+Logging results to: /home/serenaqhuang/settlers/RL/results/train_results/run_004
+
+================================================================================================================================
+
+Using device: cuda:0
+Running for 208333 updates; 4800 steps per update
+Updates complete: 1. Total policy steps: 4800. Number of games complete: 5. Total elapsed time: 0.02952357119984097 hours.
+Updating opponent policies.
+Updates complete: 2. Total policy steps: 9600. Number of games complete: 40. Total elapsed time: 0.05704510052998861 hours.
+Updating opponent policies.
+Updates complete: 3. Total policy steps: 14400. Number of games complete: 101. Total elapsed time: 0.0839476767513487 hours.
+Updating opponent policies.
+Updates complete: 4. Total policy steps: 19200. Number of games complete: 161. Total elapsed time: 0.11079854269822438 hours.
+Updating opponent policies.
+Updates complete: 5. Total policy steps: 24000. Number of games complete: 209. Total elapsed time: 0.1383085205157598 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 6. Total policy steps: 28800. Number of games complete: 257. Total elapsed time: 0.16501987020174663 hours.
+Updating opponent policies.
+Updates complete: 7. Total policy steps: 33600. Number of games complete: 310. Total elapsed time: 0.19179691784911684 hours.
+Updating opponent policies.
+Updates complete: 8. Total policy steps: 38400. Number of games complete: 361. Total elapsed time: 0.21836145361264547 hours.
+Updating opponent policies.
+Updates complete: 9. Total policy steps: 43200. Number of games complete: 407. Total elapsed time: 0.24506212559011248 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 10. Total policy steps: 48000. Number of games complete: 461. Total elapsed time: 0.2712413136164347 hours.
+Updating opponent policies.
+Updates complete: 11. Total policy steps: 52800. Number of games complete: 518. Total elapsed time: 0.29751506593492294 hours.
+Updating opponent policies.
+Updates complete: 12. Total policy steps: 57600. Number of games complete: 569. Total elapsed time: 0.32432079275449116 hours.
+Updating opponent policies.
+Updates complete: 13. Total policy steps: 62400. Number of games complete: 617. Total elapsed time: 0.3507126012113359 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 14. Total policy steps: 67200. Number of games complete: 670. Total elapsed time: 0.3771641644504335 hours.
+Updating opponent policies.
+Updates complete: 15. Total policy steps: 72000. Number of games complete: 720. Total elapsed time: 0.4040282371971342 hours.
+Updating opponent policies.
+Updates complete: 16. Total policy steps: 76800. Number of games complete: 770. Total elapsed time: 0.4303589602311452 hours.
+Updating opponent policies.
+Updates complete: 17. Total policy steps: 81600. Number of games complete: 822. Total elapsed time: 0.4572639207045237 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 18. Total policy steps: 86400. Number of games complete: 861. Total elapsed time: 0.48387328220738307 hours.
+Updating opponent policies.
+Updates complete: 19. Total policy steps: 91200. Number of games complete: 915. Total elapsed time: 0.5105534303850597 hours.
+Updating opponent policies.
+Updates complete: 20. Total policy steps: 96000. Number of games complete: 963. Total elapsed time: 0.5374533318148719 hours.
+Updating opponent policies.
+Updates complete: 21. Total policy steps: 100800. Number of games complete: 1016. Total elapsed time: 0.5641846468713548 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 22. Total policy steps: 105600. Number of games complete: 1059. Total elapsed time: 0.5909222341246075 hours.
+Updating opponent policies.
+Updates complete: 23. Total policy steps: 110400. Number of games complete: 1106. Total elapsed time: 0.6180524285634359 hours.
+Updating opponent policies.
+Updates complete: 24. Total policy steps: 115200. Number of games complete: 1149. Total elapsed time: 0.6449852297703426 hours.
+Updating opponent policies.
+Updates complete: 25. Total policy steps: 120000. Number of games complete: 1199. Total elapsed time: 0.6714412648810281 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 26. Total policy steps: 124800. Number of games complete: 1249. Total elapsed time: 0.6977225584454007 hours.
+Updating opponent policies.
+Playing against opponents: ['random']
+
+
+---------------------- EVALUATION (after 25 updates) ----------------------
+32 games against random. Policy won 8/32. Avg. game length: 323.59375. Avg num policy decisions: 85.5. Avg victory points for policy: 2.65625. 
+
+
+Updates complete: 27. Total policy steps: 129600. Number of games complete: 1293. Total elapsed time: 0.7329586212502586 hours.
+Updating opponent policies.
+Updates complete: 28. Total policy steps: 134400. Number of games complete: 1344. Total elapsed time: 0.7595411530468199 hours.
+Updating opponent policies.
+Updates complete: 29. Total policy steps: 139200. Number of games complete: 1405. Total elapsed time: 0.7859441448582544 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 30. Total policy steps: 144000. Number of games complete: 1453. Total elapsed time: 0.8124216636684206 hours.
+Updating opponent policies.
+Updates complete: 31. Total policy steps: 148800. Number of games complete: 1490. Total elapsed time: 0.8390321494473352 hours.
+Updating opponent policies.
+Updates complete: 32. Total policy steps: 153600. Number of games complete: 1541. Total elapsed time: 0.8653711562686496 hours.
+Updating opponent policies.
+Updates complete: 33. Total policy steps: 158400. Number of games complete: 1581. Total elapsed time: 0.8916290262010362 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 34. Total policy steps: 163200. Number of games complete: 1636. Total elapsed time: 0.9179527276092105 hours.
+Updating opponent policies.
+Updates complete: 35. Total policy steps: 168000. Number of games complete: 1686. Total elapsed time: 0.9446070084969203 hours.
+Updating opponent policies.
+Updates complete: 36. Total policy steps: 172800. Number of games complete: 1730. Total elapsed time: 0.970919890469975 hours.
+Updating opponent policies.
+Updates complete: 37. Total policy steps: 177600. Number of games complete: 1780. Total elapsed time: 0.9974708769056532 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 38. Total policy steps: 182400. Number of games complete: 1830. Total elapsed time: 1.024074183371332 hours.
+Updating opponent policies.
+Updates complete: 39. Total policy steps: 187200. Number of games complete: 1891. Total elapsed time: 1.0508966825405757 hours.
+Updating opponent policies.
+Updates complete: 40. Total policy steps: 192000. Number of games complete: 1938. Total elapsed time: 1.077668515841166 hours.
+Updating opponent policies.
+Updates complete: 41. Total policy steps: 196800. Number of games complete: 1995. Total elapsed time: 1.1040804064273835 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 42. Total policy steps: 201600. Number of games complete: 2045. Total elapsed time: 1.130707704226176 hours.
+Updating opponent policies.
+Updates complete: 43. Total policy steps: 206400. Number of games complete: 2104. Total elapsed time: 1.1576107893387477 hours.
+Updating opponent policies.
+Updates complete: 44. Total policy steps: 211200. Number of games complete: 2152. Total elapsed time: 1.1839997824033102 hours.
+Updating opponent policies.
+Updates complete: 45. Total policy steps: 216000. Number of games complete: 2205. Total elapsed time: 1.21072222146723 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 46. Total policy steps: 220800. Number of games complete: 2255. Total elapsed time: 1.2371335790554683 hours.
+Updating opponent policies.
+Updates complete: 47. Total policy steps: 225600. Number of games complete: 2302. Total elapsed time: 1.263712740805414 hours.
+Updating opponent policies.
+Updates complete: 48. Total policy steps: 230400. Number of games complete: 2351. Total elapsed time: 1.289745476047198 hours.
+Updating opponent policies.
+Updates complete: 49. Total policy steps: 235200. Number of games complete: 2399. Total elapsed time: 1.3158047164148754 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 50. Total policy steps: 240000. Number of games complete: 2448. Total elapsed time: 1.3423324866427315 hours.
+Updating opponent policies.
+Updates complete: 51. Total policy steps: 244800. Number of games complete: 2504. Total elapsed time: 1.3687585549884371 hours.
+Updating opponent policies.
+Playing against opponents: ['random']
+
+
+---------------------- EVALUATION (after 50 updates) ----------------------
+32 games against random. Policy won 9/32. Avg. game length: 378.1875. Avg num policy decisions: 102.0625. Avg victory points for policy: 2.78125. 
+
+
+Updates complete: 52. Total policy steps: 249600. Number of games complete: 2552. Total elapsed time: 1.407035937640402 hours.
+Updating opponent policies.
+Updates complete: 53. Total policy steps: 254400. Number of games complete: 2600. Total elapsed time: 1.4331090002589755 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 54. Total policy steps: 259200. Number of games complete: 2647. Total elapsed time: 1.4594151318735546 hours.
+Updating opponent policies.
+Updates complete: 55. Total policy steps: 264000. Number of games complete: 2690. Total elapsed time: 1.4849234537945852 hours.
+Updating opponent policies.
+Updates complete: 56. Total policy steps: 268800. Number of games complete: 2734. Total elapsed time: 1.5110227947764927 hours.
+Updating opponent policies.
+Updates complete: 57. Total policy steps: 273600. Number of games complete: 2792. Total elapsed time: 1.5371366993586222 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 58. Total policy steps: 278400. Number of games complete: 2852. Total elapsed time: 1.564034086002244 hours.
+Updating opponent policies.
+Updates complete: 59. Total policy steps: 283200. Number of games complete: 2902. Total elapsed time: 1.5901519717110528 hours.
+Updating opponent policies.
+Updates complete: 60. Total policy steps: 288000. Number of games complete: 2950. Total elapsed time: 1.6162578771511713 hours.
+Updating opponent policies.
+Updates complete: 61. Total policy steps: 292800. Number of games complete: 2997. Total elapsed time: 1.6421144104003906 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 62. Total policy steps: 297600. Number of games complete: 3055. Total elapsed time: 1.668385680185424 hours.
+Updating opponent policies.
+Updates complete: 63. Total policy steps: 302400. Number of games complete: 3104. Total elapsed time: 1.6945733084281285 hours.
+Updating opponent policies.
+Updates complete: 64. Total policy steps: 307200. Number of games complete: 3153. Total elapsed time: 1.7213846660984886 hours.
+Updating opponent policies.
+Updates complete: 65. Total policy steps: 312000. Number of games complete: 3204. Total elapsed time: 1.7477636984321807 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 66. Total policy steps: 316800. Number of games complete: 3247. Total elapsed time: 1.7746042619811164 hours.
+Updating opponent policies.
+Updates complete: 67. Total policy steps: 321600. Number of games complete: 3305. Total elapsed time: 1.8011702089177237 hours.
+Updating opponent policies.
+Updates complete: 68. Total policy steps: 326400. Number of games complete: 3361. Total elapsed time: 1.8278609684440825 hours.
+Updating opponent policies.
+Updates complete: 69. Total policy steps: 331200. Number of games complete: 3414. Total elapsed time: 1.854351390865114 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 70. Total policy steps: 336000. Number of games complete: 3468. Total elapsed time: 1.8812936437129975 hours.
+Updating opponent policies.
+Updates complete: 71. Total policy steps: 340800. Number of games complete: 3516. Total elapsed time: 1.9076871152718862 hours.
+Updating opponent policies.
+Updates complete: 72. Total policy steps: 345600. Number of games complete: 3570. Total elapsed time: 1.9342664959695604 hours.
+Updating opponent policies.
+Updates complete: 73. Total policy steps: 350400. Number of games complete: 3628. Total elapsed time: 1.9612215552727381 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 74. Total policy steps: 355200. Number of games complete: 3680. Total elapsed time: 1.9877724780639012 hours.
+Updating opponent policies.
+Updates complete: 75. Total policy steps: 360000. Number of games complete: 3732. Total elapsed time: 2.0144220021035935 hours.
+Updating opponent policies.
+Updates complete: 76. Total policy steps: 364800. Number of games complete: 3789. Total elapsed time: 2.0408698757489523 hours.
+Updating opponent policies.
+Playing against opponents: ['random']
+
+
+---------------------- EVALUATION (after 75 updates) ----------------------
+32 games against random. Policy won 6/32. Avg. game length: 271.875. Avg num policy decisions: 70.75. Avg victory points for policy: 2.5. 
+
+
+Updates complete: 77. Total policy steps: 369600. Number of games complete: 3836. Total elapsed time: 2.0757426044013765 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 78. Total policy steps: 374400. Number of games complete: 3897. Total elapsed time: 2.102332286172443 hours.
+Updating opponent policies.
+Updates complete: 79. Total policy steps: 379200. Number of games complete: 3940. Total elapsed time: 2.128824817273352 hours.
+Updating opponent policies.
+Updates complete: 80. Total policy steps: 384000. Number of games complete: 3983. Total elapsed time: 2.155163829525312 hours.
+Updating opponent policies.
+Updates complete: 81. Total policy steps: 388800. Number of games complete: 4026. Total elapsed time: 2.1819542809327443 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 82. Total policy steps: 393600. Number of games complete: 4096. Total elapsed time: 2.2083798288636736 hours.
+Updating opponent policies.
+Updates complete: 83. Total policy steps: 398400. Number of games complete: 4134. Total elapsed time: 2.2351621461576885 hours.
+Updating opponent policies.
+Updates complete: 84. Total policy steps: 403200. Number of games complete: 4175. Total elapsed time: 2.261523463990953 hours.
+Updating opponent policies.
+Updates complete: 85. Total policy steps: 408000. Number of games complete: 4229. Total elapsed time: 2.2882216695282196 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 86. Total policy steps: 412800. Number of games complete: 4275. Total elapsed time: 2.314750927355554 hours.
+Updating opponent policies.
+Updates complete: 87. Total policy steps: 417600. Number of games complete: 4341. Total elapsed time: 2.3412854943010544 hours.
+Updating opponent policies.
+Updates complete: 88. Total policy steps: 422400. Number of games complete: 4391. Total elapsed time: 2.3675159131818346 hours.
+Updating opponent policies.
+Updates complete: 89. Total policy steps: 427200. Number of games complete: 4441. Total elapsed time: 2.3936294391420154 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 90. Total policy steps: 432000. Number of games complete: 4483. Total elapsed time: 2.4196124143070645 hours.
+Updating opponent policies.
+Updates complete: 91. Total policy steps: 436800. Number of games complete: 4526. Total elapsed time: 2.445861227048768 hours.
+Updating opponent policies.
+Updates complete: 92. Total policy steps: 441600. Number of games complete: 4576. Total elapsed time: 2.4721086061000825 hours.
+Updating opponent policies.
+Updates complete: 93. Total policy steps: 446400. Number of games complete: 4626. Total elapsed time: 2.498638542956776 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 94. Total policy steps: 451200. Number of games complete: 4667. Total elapsed time: 2.5249457891782123 hours.
+Updating opponent policies.
+Updates complete: 95. Total policy steps: 456000. Number of games complete: 4714. Total elapsed time: 2.5512823977073036 hours.
+Updating opponent policies.
+Updates complete: 96. Total policy steps: 460800. Number of games complete: 4761. Total elapsed time: 2.57765956958135 hours.
+Updating opponent policies.
+Updates complete: 97. Total policy steps: 465600. Number of games complete: 4808. Total elapsed time: 2.603888022767173 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 98. Total policy steps: 470400. Number of games complete: 4859. Total elapsed time: 2.6305167755153445 hours.
+Updating opponent policies.
+Updates complete: 99. Total policy steps: 475200. Number of games complete: 4916. Total elapsed time: 2.6572066266006895 hours.
+Updating opponent policies.
+Updates complete: 100. Total policy steps: 480000. Number of games complete: 4960. Total elapsed time: 2.6840977170732288 hours.
+Updating opponent policies.
+Updates complete: 101. Total policy steps: 484800. Number of games complete: 5012. Total elapsed time: 2.710156631734636 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago']
+
+
+---------------------- EVALUATION (after 100 updates) ----------------------
+32 games against random. Policy won 12/32. Avg. game length: 364.46875. Avg num policy decisions: 94.1875. Avg victory points for policy: 2.8125. 
+32 games against policy from 25 updates ago. Policy won 12/32. Avg. game length: 397.5625. Avg num policy decisions: 102.40625. Avg victory points for policy: 3.15625. 
+
+
+Updates complete: 102. Total policy steps: 489600. Number of games complete: 5071. Total elapsed time: 2.7584323614835737 hours.
+Updating opponent policies.
+Updates complete: 103. Total policy steps: 494400. Number of games complete: 5125. Total elapsed time: 2.7851831624905268 hours.
+Updating opponent policies.
+Updates complete: 104. Total policy steps: 499200. Number of games complete: 5164. Total elapsed time: 2.811908513042662 hours.
+Updating opponent policies.
+Updates complete: 105. Total policy steps: 504000. Number of games complete: 5222. Total elapsed time: 2.8384612786107595 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 106. Total policy steps: 508800. Number of games complete: 5278. Total elapsed time: 2.864911423325539 hours.
+Updating opponent policies.
+Updates complete: 107. Total policy steps: 513600. Number of games complete: 5323. Total elapsed time: 2.8912571002377403 hours.
+Updating opponent policies.
+Updates complete: 108. Total policy steps: 518400. Number of games complete: 5381. Total elapsed time: 2.9176161065366535 hours.
+Updating opponent policies.
+Updates complete: 109. Total policy steps: 523200. Number of games complete: 5427. Total elapsed time: 2.9443555621306103 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 110. Total policy steps: 528000. Number of games complete: 5474. Total elapsed time: 2.9707962740792166 hours.
+Updating opponent policies.
+Updates complete: 111. Total policy steps: 532800. Number of games complete: 5520. Total elapsed time: 2.9971609182490244 hours.
+Updating opponent policies.
+Updates complete: 112. Total policy steps: 537600. Number of games complete: 5576. Total elapsed time: 3.0234964876042474 hours.
+Updating opponent policies.
+Updates complete: 113. Total policy steps: 542400. Number of games complete: 5633. Total elapsed time: 3.0500819928116267 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 114. Total policy steps: 547200. Number of games complete: 5681. Total elapsed time: 3.07661334613959 hours.
+Updating opponent policies.
+Updates complete: 115. Total policy steps: 552000. Number of games complete: 5737. Total elapsed time: 3.103026865389612 hours.
+Updating opponent policies.
+Updates complete: 116. Total policy steps: 556800. Number of games complete: 5796. Total elapsed time: 3.1298561069700455 hours.
+Updating opponent policies.
+Updates complete: 117. Total policy steps: 561600. Number of games complete: 5853. Total elapsed time: 3.156493198540476 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 118. Total policy steps: 566400. Number of games complete: 5908. Total elapsed time: 3.183008229666286 hours.
+Updating opponent policies.
+Updates complete: 119. Total policy steps: 571200. Number of games complete: 5970. Total elapsed time: 3.2097059506840178 hours.
+Updating opponent policies.
+Updates complete: 120. Total policy steps: 576000. Number of games complete: 6020. Total elapsed time: 3.2368489125702116 hours.
+Updating opponent policies.
+Updates complete: 121. Total policy steps: 580800. Number of games complete: 6071. Total elapsed time: 3.26329054971536 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 122. Total policy steps: 585600. Number of games complete: 6122. Total elapsed time: 3.2903807407617567 hours.
+Updating opponent policies.
+Updates complete: 123. Total policy steps: 590400. Number of games complete: 6184. Total elapsed time: 3.3175514805316926 hours.
+Updating opponent policies.
+Updates complete: 124. Total policy steps: 595200. Number of games complete: 6246. Total elapsed time: 3.344578680462307 hours.
+Updating opponent policies.
+Updates complete: 125. Total policy steps: 600000. Number of games complete: 6299. Total elapsed time: 3.3711095099316704 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 126. Total policy steps: 604800. Number of games complete: 6342. Total elapsed time: 3.398035722507371 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago']
+
+
+---------------------- EVALUATION (after 125 updates) ----------------------
+32 games against random. Policy won 9/32. Avg. game length: 330.40625. Avg num policy decisions: 84.03125. Avg victory points for policy: 2.78125. 
+32 games against policy from 25 updates ago. Policy won 11/32. Avg. game length: 368.5625. Avg num policy decisions: 91.125. Avg victory points for policy: 2.90625. 
+
+
+Updates complete: 127. Total policy steps: 609600. Number of games complete: 6409. Total elapsed time: 3.44474139491717 hours.
+Updating opponent policies.
+Updates complete: 128. Total policy steps: 614400. Number of games complete: 6460. Total elapsed time: 3.4712484922011693 hours.
+Updating opponent policies.
+Updates complete: 129. Total policy steps: 619200. Number of games complete: 6516. Total elapsed time: 3.4981659751468235 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 130. Total policy steps: 624000. Number of games complete: 6568. Total elapsed time: 3.524543990559048 hours.
+Updating opponent policies.
+Updates complete: 131. Total policy steps: 628800. Number of games complete: 6619. Total elapsed time: 3.5510564115312366 hours.
+Updating opponent policies.
+Updates complete: 132. Total policy steps: 633600. Number of games complete: 6679. Total elapsed time: 3.5775592072804767 hours.
+Updating opponent policies.
+Updates complete: 133. Total policy steps: 638400. Number of games complete: 6736. Total elapsed time: 3.6045671879582937 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 134. Total policy steps: 643200. Number of games complete: 6780. Total elapsed time: 3.6314199248287413 hours.
+Updating opponent policies.
+Updates complete: 135. Total policy steps: 648000. Number of games complete: 6834. Total elapsed time: 3.6586768452326455 hours.
+Updating opponent policies.
+Updates complete: 136. Total policy steps: 652800. Number of games complete: 6888. Total elapsed time: 3.6858495654000176 hours.
+Updating opponent policies.
+Updates complete: 137. Total policy steps: 657600. Number of games complete: 6948. Total elapsed time: 3.7129150296582116 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 138. Total policy steps: 662400. Number of games complete: 7012. Total elapsed time: 3.7395140689611437 hours.
+Updating opponent policies.
+Updates complete: 139. Total policy steps: 667200. Number of games complete: 7062. Total elapsed time: 3.7667441228363248 hours.
+Updating opponent policies.
+Updates complete: 140. Total policy steps: 672000. Number of games complete: 7125. Total elapsed time: 3.793615154955122 hours.
+Updating opponent policies.
+Updates complete: 141. Total policy steps: 676800. Number of games complete: 7191. Total elapsed time: 3.8206655534770753 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 142. Total policy steps: 681600. Number of games complete: 7240. Total elapsed time: 3.847547682258818 hours.
+Updating opponent policies.
+Updates complete: 143. Total policy steps: 686400. Number of games complete: 7296. Total elapsed time: 3.8746103001965415 hours.
+Updating opponent policies.
+Updates complete: 144. Total policy steps: 691200. Number of games complete: 7346. Total elapsed time: 3.9014849944909415 hours.
+Updating opponent policies.
+Updates complete: 145. Total policy steps: 696000. Number of games complete: 7400. Total elapsed time: 3.928901073601511 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 146. Total policy steps: 700800. Number of games complete: 7448. Total elapsed time: 3.955620130499204 hours.
+Updating opponent policies.
+Updates complete: 147. Total policy steps: 705600. Number of games complete: 7512. Total elapsed time: 3.9823079232374825 hours.
+Updating opponent policies.
+Updates complete: 148. Total policy steps: 710400. Number of games complete: 7568. Total elapsed time: 4.009229525460137 hours.
+Updating opponent policies.
+Updates complete: 149. Total policy steps: 715200. Number of games complete: 7615. Total elapsed time: 4.036249990860621 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 150. Total policy steps: 720000. Number of games complete: 7676. Total elapsed time: 4.0632211346758735 hours.
+Updating opponent policies.
+Updates complete: 151. Total policy steps: 724800. Number of games complete: 7726. Total elapsed time: 4.0897944173547955 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago']
+
+
+---------------------- EVALUATION (after 150 updates) ----------------------
+32 games against random. Policy won 8/32. Avg. game length: 325.09375. Avg num policy decisions: 82.40625. Avg victory points for policy: 2.78125. 
+32 games against policy from 25 updates ago. Policy won 12/32. Avg. game length: 388.375. Avg num policy decisions: 96.09375. Avg victory points for policy: 3.15625. 
+
+
+Updates complete: 152. Total policy steps: 729600. Number of games complete: 7776. Total elapsed time: 4.1361394898759 hours.
+Updating opponent policies.
+Updates complete: 153. Total policy steps: 734400. Number of games complete: 7839. Total elapsed time: 4.163004936708345 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 154. Total policy steps: 739200. Number of games complete: 7899. Total elapsed time: 4.189842642744382 hours.
+Updating opponent policies.
+Updates complete: 155. Total policy steps: 744000. Number of games complete: 7946. Total elapsed time: 4.216931298176448 hours.
+Updating opponent policies.
+Updates complete: 156. Total policy steps: 748800. Number of games complete: 8001. Total elapsed time: 4.244060181246864 hours.
+Updating opponent policies.
+Updates complete: 157. Total policy steps: 753600. Number of games complete: 8062. Total elapsed time: 4.271224196089639 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 158. Total policy steps: 758400. Number of games complete: 8123. Total elapsed time: 4.29806101375156 hours.
+Updating opponent policies.
+Updates complete: 159. Total policy steps: 763200. Number of games complete: 8178. Total elapsed time: 4.324974630210135 hours.
+Updating opponent policies.
+Updates complete: 160. Total policy steps: 768000. Number of games complete: 8235. Total elapsed time: 4.351976073185603 hours.
+Updating opponent policies.
+Updates complete: 161. Total policy steps: 772800. Number of games complete: 8285. Total elapsed time: 4.378313056760364 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 162. Total policy steps: 777600. Number of games complete: 8349. Total elapsed time: 4.405618778136041 hours.
+Updating opponent policies.
+Updates complete: 163. Total policy steps: 782400. Number of games complete: 8415. Total elapsed time: 4.43261972685655 hours.
+Updating opponent policies.
+Updates complete: 164. Total policy steps: 787200. Number of games complete: 8473. Total elapsed time: 4.459322791232003 hours.
+Updating opponent policies.
+Updates complete: 165. Total policy steps: 792000. Number of games complete: 8536. Total elapsed time: 4.486655709611045 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 166. Total policy steps: 796800. Number of games complete: 8590. Total elapsed time: 4.5131662109163075 hours.
+Updating opponent policies.
+Updates complete: 167. Total policy steps: 801600. Number of games complete: 8640. Total elapsed time: 4.539870647523138 hours.
+Updating opponent policies.
+Updates complete: 168. Total policy steps: 806400. Number of games complete: 8695. Total elapsed time: 4.566847773392995 hours.
+Updating opponent policies.
+Updates complete: 169. Total policy steps: 811200. Number of games complete: 8743. Total elapsed time: 4.593688328266143 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 170. Total policy steps: 816000. Number of games complete: 8810. Total elapsed time: 4.621148898005486 hours.
+Updating opponent policies.
+Updates complete: 171. Total policy steps: 820800. Number of games complete: 8858. Total elapsed time: 4.647877455684874 hours.
+Updating opponent policies.
+Updates complete: 172. Total policy steps: 825600. Number of games complete: 8907. Total elapsed time: 4.674811006784439 hours.
+Updating opponent policies.
+Updates complete: 173. Total policy steps: 830400. Number of games complete: 8965. Total elapsed time: 4.701362113489045 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 174. Total policy steps: 835200. Number of games complete: 9027. Total elapsed time: 4.7281013743744955 hours.
+Updating opponent policies.
+Updates complete: 175. Total policy steps: 840000. Number of games complete: 9080. Total elapsed time: 4.755075808035003 hours.
+Updating opponent policies.
+Updates complete: 176. Total policy steps: 844800. Number of games complete: 9139. Total elapsed time: 4.781450308031506 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago']
+
+
+---------------------- EVALUATION (after 175 updates) ----------------------
+32 games against random. Policy won 8/32. Avg. game length: 366.21875. Avg num policy decisions: 94.65625. Avg victory points for policy: 2.65625. 
+32 games against policy from 25 updates ago. Policy won 9/32. Avg. game length: 349.9375. Avg num policy decisions: 89.4375. Avg victory points for policy: 2.78125. 
+
+
+Updates complete: 177. Total policy steps: 849600. Number of games complete: 9190. Total elapsed time: 4.828180325163736 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 178. Total policy steps: 854400. Number of games complete: 9261. Total elapsed time: 4.854703240725729 hours.
+Updating opponent policies.
+Updates complete: 179. Total policy steps: 859200. Number of games complete: 9316. Total elapsed time: 4.881333428555065 hours.
+Updating opponent policies.
+Updates complete: 180. Total policy steps: 864000. Number of games complete: 9364. Total elapsed time: 4.908172158532673 hours.
+Updating opponent policies.
+Updates complete: 181. Total policy steps: 868800. Number of games complete: 9417. Total elapsed time: 4.9348068990310034 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 182. Total policy steps: 873600. Number of games complete: 9473. Total elapsed time: 4.961560219460064 hours.
+Updating opponent policies.
+Updates complete: 183. Total policy steps: 878400. Number of games complete: 9529. Total elapsed time: 4.988329879376623 hours.
+Updating opponent policies.
+Updates complete: 184. Total policy steps: 883200. Number of games complete: 9588. Total elapsed time: 5.014917458825641 hours.
+Updating opponent policies.
+Updates complete: 185. Total policy steps: 888000. Number of games complete: 9642. Total elapsed time: 5.041746338937018 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 186. Total policy steps: 892800. Number of games complete: 9691. Total elapsed time: 5.068368472854297 hours.
+Updating opponent policies.
+Updates complete: 187. Total policy steps: 897600. Number of games complete: 9756. Total elapsed time: 5.094566482702891 hours.
+Updating opponent policies.
+Updates complete: 188. Total policy steps: 902400. Number of games complete: 9802. Total elapsed time: 5.120921795037058 hours.
+Updating opponent policies.
+Updates complete: 189. Total policy steps: 907200. Number of games complete: 9854. Total elapsed time: 5.1479086138804755 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 190. Total policy steps: 912000. Number of games complete: 9911. Total elapsed time: 5.174796001513799 hours.
+Updating opponent policies.
+Updates complete: 191. Total policy steps: 916800. Number of games complete: 9963. Total elapsed time: 5.201886489788691 hours.
+Updating opponent policies.
+Updates complete: 192. Total policy steps: 921600. Number of games complete: 10013. Total elapsed time: 5.228749843570921 hours.
+Updating opponent policies.
+Updates complete: 193. Total policy steps: 926400. Number of games complete: 10064. Total elapsed time: 5.255747179653909 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 194. Total policy steps: 931200. Number of games complete: 10131. Total elapsed time: 5.282606808344523 hours.
+Updating opponent policies.
+Updates complete: 195. Total policy steps: 936000. Number of games complete: 10188. Total elapsed time: 5.309771479301983 hours.
+Updating opponent policies.
+Updates complete: 196. Total policy steps: 940800. Number of games complete: 10236. Total elapsed time: 5.336481245954832 hours.
+Updating opponent policies.
+Updates complete: 197. Total policy steps: 945600. Number of games complete: 10289. Total elapsed time: 5.363612267374992 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 198. Total policy steps: 950400. Number of games complete: 10346. Total elapsed time: 5.390645664466752 hours.
+Updating opponent policies.
+Updates complete: 199. Total policy steps: 955200. Number of games complete: 10398. Total elapsed time: 5.417668231990603 hours.
+Updating opponent policies.
+Updates complete: 200. Total policy steps: 960000. Number of games complete: 10457. Total elapsed time: 5.444840484261513 hours.
+Updating opponent policies.
+Updates complete: 201. Total policy steps: 964800. Number of games complete: 10513. Total elapsed time: 5.4717670065164565 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago']
+
+
+---------------------- EVALUATION (after 200 updates) ----------------------
+32 games against random. Policy won 11/32. Avg. game length: 344.1875. Avg num policy decisions: 89.25. Avg victory points for policy: 2.9375. 
+32 games against policy from 25 updates ago. Policy won 8/32. Avg. game length: 396.375. Avg num policy decisions: 101.0. Avg victory points for policy: 2.8125. 
+32 games against policy from 50 updates ago. Policy won 10/32. Avg. game length: 380.75. Avg num policy decisions: 97.21875. Avg victory points for policy: 2.71875. 
+
+
+Updates complete: 202. Total policy steps: 969600. Number of games complete: 10568. Total elapsed time: 5.526695922348234 hours.
+Updating opponent policies.
+Updates complete: 203. Total policy steps: 974400. Number of games complete: 10618. Total elapsed time: 5.55360354953342 hours.
+Updating opponent policies.
+Updates complete: 204. Total policy steps: 979200. Number of games complete: 10676. Total elapsed time: 5.580956797069973 hours.
+Updating opponent policies.
+Updates complete: 205. Total policy steps: 984000. Number of games complete: 10734. Total elapsed time: 5.6080245512723925 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 206. Total policy steps: 988800. Number of games complete: 10787. Total elapsed time: 5.635186052653524 hours.
+Updating opponent policies.
+Updates complete: 207. Total policy steps: 993600. Number of games complete: 10848. Total elapsed time: 5.661860754224989 hours.
+Updating opponent policies.
+Updates complete: 208. Total policy steps: 998400. Number of games complete: 10894. Total elapsed time: 5.688540433777703 hours.
+Updating opponent policies.
+Updates complete: 209. Total policy steps: 1003200. Number of games complete: 10954. Total elapsed time: 5.715260761247741 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 210. Total policy steps: 1008000. Number of games complete: 11001. Total elapsed time: 5.742232565151321 hours.
+Updating opponent policies.
+Updates complete: 211. Total policy steps: 1012800. Number of games complete: 11048. Total elapsed time: 5.769072988099522 hours.
+Updating opponent policies.
+Updates complete: 212. Total policy steps: 1017600. Number of games complete: 11104. Total elapsed time: 5.795562341411909 hours.
+Updating opponent policies.
+Updates complete: 213. Total policy steps: 1022400. Number of games complete: 11163. Total elapsed time: 5.8222639091147315 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 214. Total policy steps: 1027200. Number of games complete: 11221. Total elapsed time: 5.848801048729155 hours.
+Updating opponent policies.
+Updates complete: 215. Total policy steps: 1032000. Number of games complete: 11275. Total elapsed time: 5.875573024749756 hours.
+Updating opponent policies.
+Updates complete: 216. Total policy steps: 1036800. Number of games complete: 11326. Total elapsed time: 5.901981736156675 hours.
+Updating opponent policies.
+Updates complete: 217. Total policy steps: 1041600. Number of games complete: 11378. Total elapsed time: 5.928494616945585 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 218. Total policy steps: 1046400. Number of games complete: 11434. Total elapsed time: 5.954833937618467 hours.
+Updating opponent policies.
+Updates complete: 219. Total policy steps: 1051200. Number of games complete: 11498. Total elapsed time: 5.981123678485552 hours.
+Updating opponent policies.
+Updates complete: 220. Total policy steps: 1056000. Number of games complete: 11543. Total elapsed time: 6.00723643263181 hours.
+Updating opponent policies.
+Updates complete: 221. Total policy steps: 1060800. Number of games complete: 11594. Total elapsed time: 6.033405119578044 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 222. Total policy steps: 1065600. Number of games complete: 11644. Total elapsed time: 6.059874371091524 hours.
+Updating opponent policies.
+Updates complete: 223. Total policy steps: 1070400. Number of games complete: 11694. Total elapsed time: 6.086389326718119 hours.
+Updating opponent policies.
+Updates complete: 224. Total policy steps: 1075200. Number of games complete: 11745. Total elapsed time: 6.1128383979532455 hours.
+Updating opponent policies.
+Updates complete: 225. Total policy steps: 1080000. Number of games complete: 11800. Total elapsed time: 6.139294934338993 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 226. Total policy steps: 1084800. Number of games complete: 11846. Total elapsed time: 6.1660766338639785 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago']
+
+
+---------------------- EVALUATION (after 225 updates) ----------------------
+32 games against random. Policy won 11/32. Avg. game length: 350.6875. Avg num policy decisions: 91.53125. Avg victory points for policy: 2.78125. 
+32 games against policy from 25 updates ago. Policy won 12/32. Avg. game length: 332.75. Avg num policy decisions: 86.84375. Avg victory points for policy: 3.03125. 
+32 games against policy from 50 updates ago. Policy won 12/32. Avg. game length: 333.9375. Avg num policy decisions: 84.0625. Avg victory points for policy: 3.0625. 
+
+
+Updates complete: 227. Total policy steps: 1089600. Number of games complete: 11903. Total elapsed time: 6.22041812757651 hours.
+Updating opponent policies.
+Updates complete: 228. Total policy steps: 1094400. Number of games complete: 11957. Total elapsed time: 6.246850511233012 hours.
+Updating opponent policies.
+Updates complete: 229. Total policy steps: 1099200. Number of games complete: 12025. Total elapsed time: 6.273692349129253 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 230. Total policy steps: 1104000. Number of games complete: 12071. Total elapsed time: 6.300097362001737 hours.
+Updating opponent policies.
+Updates complete: 231. Total policy steps: 1108800. Number of games complete: 12122. Total elapsed time: 6.326307100653648 hours.
+Updating opponent policies.
+Updates complete: 232. Total policy steps: 1113600. Number of games complete: 12168. Total elapsed time: 6.352703713708454 hours.
+Updating opponent policies.
+Updates complete: 233. Total policy steps: 1118400. Number of games complete: 12224. Total elapsed time: 6.379113489786784 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 234. Total policy steps: 1123200. Number of games complete: 12276. Total elapsed time: 6.405526491800944 hours.
+Updating opponent policies.
+Updates complete: 235. Total policy steps: 1128000. Number of games complete: 12332. Total elapsed time: 6.431829258071052 hours.
+Updating opponent policies.
+Updates complete: 236. Total policy steps: 1132800. Number of games complete: 12374. Total elapsed time: 6.458020743264092 hours.
+Updating opponent policies.
+Updates complete: 237. Total policy steps: 1137600. Number of games complete: 12422. Total elapsed time: 6.483963912791676 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 238. Total policy steps: 1142400. Number of games complete: 12483. Total elapsed time: 6.510252777602937 hours.
+Updating opponent policies.
+Updates complete: 239. Total policy steps: 1147200. Number of games complete: 12540. Total elapsed time: 6.53671373254723 hours.
+Updating opponent policies.
+Updates complete: 240. Total policy steps: 1152000. Number of games complete: 12595. Total elapsed time: 6.562796408401595 hours.
+Updating opponent policies.
+Updates complete: 241. Total policy steps: 1156800. Number of games complete: 12639. Total elapsed time: 6.589665946894222 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 242. Total policy steps: 1161600. Number of games complete: 12696. Total elapsed time: 6.6162364341153035 hours.
+Updating opponent policies.
+Updates complete: 243. Total policy steps: 1166400. Number of games complete: 12749. Total elapsed time: 6.642854546772109 hours.
+Updating opponent policies.
+Updates complete: 244. Total policy steps: 1171200. Number of games complete: 12809. Total elapsed time: 6.66933888428741 hours.
+Updating opponent policies.
+Updates complete: 245. Total policy steps: 1176000. Number of games complete: 12877. Total elapsed time: 6.695852873921394 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 246. Total policy steps: 1180800. Number of games complete: 12924. Total elapsed time: 6.723126689129406 hours.
+Updating opponent policies.
+Updates complete: 247. Total policy steps: 1185600. Number of games complete: 12973. Total elapsed time: 6.7498083853059345 hours.
+Updating opponent policies.
+Updates complete: 248. Total policy steps: 1190400. Number of games complete: 13024. Total elapsed time: 6.77644986960623 hours.
+Updating opponent policies.
+Updates complete: 249. Total policy steps: 1195200. Number of games complete: 13087. Total elapsed time: 6.803109368218316 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 250. Total policy steps: 1200000. Number of games complete: 13144. Total elapsed time: 6.82932531270716 hours.
+Updating opponent policies.
+Updates complete: 251. Total policy steps: 1204800. Number of games complete: 13207. Total elapsed time: 6.856089118520419 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago']
+
+
+---------------------- EVALUATION (after 250 updates) ----------------------
+32 games against random. Policy won 11/32. Avg. game length: 299.3125. Avg num policy decisions: 76.6875. Avg victory points for policy: 2.9375. 
+32 games against policy from 25 updates ago. Policy won 5/32. Avg. game length: 327.34375. Avg num policy decisions: 82.1875. Avg victory points for policy: 2.53125. 
+32 games against policy from 50 updates ago. Policy won 4/32. Avg. game length: 410.9375. Avg num policy decisions: 99.125. Avg victory points for policy: 2.59375. 
+
+
+Updates complete: 252. Total policy steps: 1209600. Number of games complete: 13270. Total elapsed time: 6.909863158861796 hours.
+Updating opponent policies.
+Updates complete: 253. Total policy steps: 1214400. Number of games complete: 13320. Total elapsed time: 6.936037847995758 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 254. Total policy steps: 1219200. Number of games complete: 13373. Total elapsed time: 6.962129949331284 hours.
+Updating opponent policies.
+Updates complete: 255. Total policy steps: 1224000. Number of games complete: 13423. Total elapsed time: 6.985915136668417 hours.
+Updating opponent policies.
+Updates complete: 256. Total policy steps: 1228800. Number of games complete: 13482. Total elapsed time: 7.009271237717734 hours.
+Updating opponent policies.
+Updates complete: 257. Total policy steps: 1233600. Number of games complete: 13537. Total elapsed time: 7.03281041973167 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 258. Total policy steps: 1238400. Number of games complete: 13579. Total elapsed time: 7.056387274728881 hours.
+Updating opponent policies.
+Updates complete: 259. Total policy steps: 1243200. Number of games complete: 13624. Total elapsed time: 7.079825146132046 hours.
+Updating opponent policies.
+Updates complete: 260. Total policy steps: 1248000. Number of games complete: 13675. Total elapsed time: 7.1035953295893135 hours.
+Updating opponent policies.
+Updates complete: 261. Total policy steps: 1252800. Number of games complete: 13724. Total elapsed time: 7.127469310098224 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 262. Total policy steps: 1257600. Number of games complete: 13781. Total elapsed time: 7.151456688377593 hours.
+Updating opponent policies.
+Updates complete: 263. Total policy steps: 1262400. Number of games complete: 13830. Total elapsed time: 7.175245217548476 hours.
+Updating opponent policies.
+Updates complete: 264. Total policy steps: 1267200. Number of games complete: 13889. Total elapsed time: 7.199457347525491 hours.
+Updating opponent policies.
+Updates complete: 265. Total policy steps: 1272000. Number of games complete: 13941. Total elapsed time: 7.223688037196795 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 266. Total policy steps: 1276800. Number of games complete: 13997. Total elapsed time: 7.2475299878252875 hours.
+Updating opponent policies.
+Updates complete: 267. Total policy steps: 1281600. Number of games complete: 14050. Total elapsed time: 7.271513661940893 hours.
+Updating opponent policies.
+Updates complete: 268. Total policy steps: 1286400. Number of games complete: 14102. Total elapsed time: 7.295706891218821 hours.
+Updating opponent policies.
+Updates complete: 269. Total policy steps: 1291200. Number of games complete: 14155. Total elapsed time: 7.319708028833071 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 270. Total policy steps: 1296000. Number of games complete: 14203. Total elapsed time: 7.3435678634378645 hours.
+Updating opponent policies.
+Updates complete: 271. Total policy steps: 1300800. Number of games complete: 14257. Total elapsed time: 7.3674005213711 hours.
+Updating opponent policies.
+Updates complete: 272. Total policy steps: 1305600. Number of games complete: 14310. Total elapsed time: 7.391188925239775 hours.
+Updating opponent policies.
+Updates complete: 273. Total policy steps: 1310400. Number of games complete: 14353. Total elapsed time: 7.414964549938838 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 274. Total policy steps: 1315200. Number of games complete: 14406. Total elapsed time: 7.438974613812235 hours.
+Updating opponent policies.
+Updates complete: 275. Total policy steps: 1320000. Number of games complete: 14459. Total elapsed time: 7.462862466573715 hours.
+Updating opponent policies.
+Updates complete: 276. Total policy steps: 1324800. Number of games complete: 14524. Total elapsed time: 7.48666190955374 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago']
+
+
+---------------------- EVALUATION (after 275 updates) ----------------------
+32 games against random. Policy won 12/32. Avg. game length: 362.75. Avg num policy decisions: 96.90625. Avg victory points for policy: 2.9375. 
+32 games against policy from 25 updates ago. Policy won 10/32. Avg. game length: 360.96875. Avg num policy decisions: 90.0625. Avg victory points for policy: 2.8125. 
+32 games against policy from 50 updates ago. Policy won 9/32. Avg. game length: 490.65625. Avg num policy decisions: 124.4375. Avg victory points for policy: 2.8125. 
+
+
+Updates complete: 277. Total policy steps: 1329600. Number of games complete: 14572. Total elapsed time: 7.53724797281954 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 278. Total policy steps: 1334400. Number of games complete: 14635. Total elapsed time: 7.561147203511662 hours.
+Updating opponent policies.
+Updates complete: 279. Total policy steps: 1339200. Number of games complete: 14676. Total elapsed time: 7.58502679725488 hours.
+Updating opponent policies.
+Updates complete: 280. Total policy steps: 1344000. Number of games complete: 14735. Total elapsed time: 7.608559584816297 hours.
+Updating opponent policies.
+Updates complete: 281. Total policy steps: 1348800. Number of games complete: 14793. Total elapsed time: 7.632320767243703 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 282. Total policy steps: 1353600. Number of games complete: 14847. Total elapsed time: 7.656296315325631 hours.
+Updating opponent policies.
+Updates complete: 283. Total policy steps: 1358400. Number of games complete: 14895. Total elapsed time: 7.680118060972956 hours.
+Updating opponent policies.
+Updates complete: 284. Total policy steps: 1363200. Number of games complete: 14945. Total elapsed time: 7.704136868317922 hours.
+Updating opponent policies.
+Updates complete: 285. Total policy steps: 1368000. Number of games complete: 15000. Total elapsed time: 7.7279514885611 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 286. Total policy steps: 1372800. Number of games complete: 15046. Total elapsed time: 7.7519487737284765 hours.
+Updating opponent policies.
+Updates complete: 287. Total policy steps: 1377600. Number of games complete: 15101. Total elapsed time: 7.775765480332905 hours.
+Updating opponent policies.
+Updates complete: 288. Total policy steps: 1382400. Number of games complete: 15138. Total elapsed time: 7.799334588050843 hours.
+Updating opponent policies.
+Updates complete: 289. Total policy steps: 1387200. Number of games complete: 15198. Total elapsed time: 7.823464715282122 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 290. Total policy steps: 1392000. Number of games complete: 15248. Total elapsed time: 7.847456068595251 hours.
+Updating opponent policies.
+Updates complete: 291. Total policy steps: 1396800. Number of games complete: 15299. Total elapsed time: 7.8713538127475315 hours.
+Updating opponent policies.
+Updates complete: 292. Total policy steps: 1401600. Number of games complete: 15358. Total elapsed time: 7.896136620309618 hours.
+Updating opponent policies.
+Updates complete: 293. Total policy steps: 1406400. Number of games complete: 15413. Total elapsed time: 7.92019118613667 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 294. Total policy steps: 1411200. Number of games complete: 15471. Total elapsed time: 7.944614697893461 hours.
+Updating opponent policies.
+Updates complete: 295. Total policy steps: 1416000. Number of games complete: 15514. Total elapsed time: 7.9688075147734745 hours.
+Updating opponent policies.
+Updates complete: 296. Total policy steps: 1420800. Number of games complete: 15572. Total elapsed time: 7.992914650175306 hours.
+Updating opponent policies.
+Updates complete: 297. Total policy steps: 1425600. Number of games complete: 15617. Total elapsed time: 8.016714176138242 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 298. Total policy steps: 1430400. Number of games complete: 15664. Total elapsed time: 8.040893060233858 hours.
+Updating opponent policies.
+Updates complete: 299. Total policy steps: 1435200. Number of games complete: 15723. Total elapsed time: 8.06494359460142 hours.
+Updating opponent policies.
+Updates complete: 300. Total policy steps: 1440000. Number of games complete: 15777. Total elapsed time: 8.088621196945509 hours.
+Updating opponent policies.
+Updates complete: 301. Total policy steps: 1444800. Number of games complete: 15825. Total elapsed time: 8.112653961711459 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago']
+
+
+---------------------- EVALUATION (after 300 updates) ----------------------
+32 games against random. Policy won 8/32. Avg. game length: 372.03125. Avg num policy decisions: 98.0. Avg victory points for policy: 2.6875. 
+32 games against policy from 25 updates ago. Policy won 6/32. Avg. game length: 419.6875. Avg num policy decisions: 105.25. Avg victory points for policy: 2.53125. 
+32 games against policy from 50 updates ago. Policy won 7/32. Avg. game length: 442.5. Avg num policy decisions: 113.15625. Avg victory points for policy: 2.75. 
+
+
+Updates complete: 302. Total policy steps: 1449600. Number of games complete: 15873. Total elapsed time: 8.163475022912026 hours.
+Updating opponent policies.
+Updates complete: 303. Total policy steps: 1454400. Number of games complete: 15922. Total elapsed time: 8.187786588337687 hours.
+Updating opponent policies.
+Updates complete: 304. Total policy steps: 1459200. Number of games complete: 15979. Total elapsed time: 8.211855654186673 hours.
+Updating opponent policies.
+Updates complete: 305. Total policy steps: 1464000. Number of games complete: 16035. Total elapsed time: 8.235959157148997 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 306. Total policy steps: 1468800. Number of games complete: 16099. Total elapsed time: 8.260263943274817 hours.
+Updating opponent policies.
+Updates complete: 307. Total policy steps: 1473600. Number of games complete: 16156. Total elapsed time: 8.284613534344567 hours.
+Updating opponent policies.
+Updates complete: 308. Total policy steps: 1478400. Number of games complete: 16210. Total elapsed time: 8.308722203241453 hours.
+Updating opponent policies.
+Updates complete: 309. Total policy steps: 1483200. Number of games complete: 16262. Total elapsed time: 8.3324176952574 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 310. Total policy steps: 1488000. Number of games complete: 16322. Total elapsed time: 8.356435769663916 hours.
+Updating opponent policies.
+Updates complete: 311. Total policy steps: 1492800. Number of games complete: 16368. Total elapsed time: 8.380293267700408 hours.
+Updating opponent policies.
+Updates complete: 312. Total policy steps: 1497600. Number of games complete: 16421. Total elapsed time: 8.404446673790614 hours.
+Updating opponent policies.
+Updates complete: 313. Total policy steps: 1502400. Number of games complete: 16474. Total elapsed time: 8.429065945810741 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 314. Total policy steps: 1507200. Number of games complete: 16513. Total elapsed time: 8.453356372846498 hours.
+Updating opponent policies.
+Updates complete: 315. Total policy steps: 1512000. Number of games complete: 16576. Total elapsed time: 8.477217370404137 hours.
+Updating opponent policies.
+Updates complete: 316. Total policy steps: 1516800. Number of games complete: 16624. Total elapsed time: 8.501101121902465 hours.
+Updating opponent policies.
+Updates complete: 317. Total policy steps: 1521600. Number of games complete: 16689. Total elapsed time: 8.524832937253846 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 318. Total policy steps: 1526400. Number of games complete: 16746. Total elapsed time: 8.548570320672459 hours.
+Updating opponent policies.
+Updates complete: 319. Total policy steps: 1531200. Number of games complete: 16795. Total elapsed time: 8.572418747279379 hours.
+Updating opponent policies.
+Updates complete: 320. Total policy steps: 1536000. Number of games complete: 16856. Total elapsed time: 8.59637682404783 hours.
+Updating opponent policies.
+Updates complete: 321. Total policy steps: 1540800. Number of games complete: 16908. Total elapsed time: 8.62021661983596 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 322. Total policy steps: 1545600. Number of games complete: 16968. Total elapsed time: 8.643980483015378 hours.
+Updating opponent policies.
+Updates complete: 323. Total policy steps: 1550400. Number of games complete: 17010. Total elapsed time: 8.667971797453033 hours.
+Updating opponent policies.
+Updates complete: 324. Total policy steps: 1555200. Number of games complete: 17061. Total elapsed time: 8.691598288615545 hours.
+Updating opponent policies.
+Updates complete: 325. Total policy steps: 1560000. Number of games complete: 17104. Total elapsed time: 8.71534746699863 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 326. Total policy steps: 1564800. Number of games complete: 17163. Total elapsed time: 8.73908214310805 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago']
+
+
+---------------------- EVALUATION (after 325 updates) ----------------------
+32 games against random. Policy won 9/32. Avg. game length: 358.90625. Avg num policy decisions: 95.15625. Avg victory points for policy: 2.875. 
+32 games against policy from 25 updates ago. Policy won 7/32. Avg. game length: 400.03125. Avg num policy decisions: 98.3125. Avg victory points for policy: 2.59375. 
+32 games against policy from 50 updates ago. Policy won 10/32. Avg. game length: 311.53125. Avg num policy decisions: 81.46875. Avg victory points for policy: 2.8125. 
+
+
+Updates complete: 327. Total policy steps: 1569600. Number of games complete: 17222. Total elapsed time: 8.786309469540914 hours.
+Updating opponent policies.
+Updates complete: 328. Total policy steps: 1574400. Number of games complete: 17270. Total elapsed time: 8.810595866706636 hours.
+Updating opponent policies.
+Updates complete: 329. Total policy steps: 1579200. Number of games complete: 17332. Total elapsed time: 8.835280554625722 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 330. Total policy steps: 1584000. Number of games complete: 17386. Total elapsed time: 8.859623279107941 hours.
+Updating opponent policies.
+Updates complete: 331. Total policy steps: 1588800. Number of games complete: 17442. Total elapsed time: 8.883527687324419 hours.
+Updating opponent policies.
+Updates complete: 332. Total policy steps: 1593600. Number of games complete: 17490. Total elapsed time: 8.90749214609464 hours.
+Updating opponent policies.
+Updates complete: 333. Total policy steps: 1598400. Number of games complete: 17543. Total elapsed time: 8.931411587860849 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 334. Total policy steps: 1603200. Number of games complete: 17599. Total elapsed time: 8.955209824774 hours.
+Updating opponent policies.
+Updates complete: 335. Total policy steps: 1608000. Number of games complete: 17651. Total elapsed time: 8.979194772508409 hours.
+Updating opponent policies.
+Updates complete: 336. Total policy steps: 1612800. Number of games complete: 17700. Total elapsed time: 9.003155653940306 hours.
+Updating opponent policies.
+Updates complete: 337. Total policy steps: 1617600. Number of games complete: 17744. Total elapsed time: 9.027449347906643 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 338. Total policy steps: 1622400. Number of games complete: 17805. Total elapsed time: 9.050980859531297 hours.
+Updating opponent policies.
+Updates complete: 339. Total policy steps: 1627200. Number of games complete: 17853. Total elapsed time: 9.074898216790624 hours.
+Updating opponent policies.
+Updates complete: 340. Total policy steps: 1632000. Number of games complete: 17928. Total elapsed time: 9.098936298290889 hours.
+Updating opponent policies.
+Updates complete: 341. Total policy steps: 1636800. Number of games complete: 17972. Total elapsed time: 9.1225213209788 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 342. Total policy steps: 1641600. Number of games complete: 18027. Total elapsed time: 9.146501416961351 hours.
+Updating opponent policies.
+Updates complete: 343. Total policy steps: 1646400. Number of games complete: 18067. Total elapsed time: 9.170544802149136 hours.
+Updating opponent policies.
+Updates complete: 344. Total policy steps: 1651200. Number of games complete: 18135. Total elapsed time: 9.194717489348518 hours.
+Updating opponent policies.
+Updates complete: 345. Total policy steps: 1656000. Number of games complete: 18182. Total elapsed time: 9.219206558267276 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 346. Total policy steps: 1660800. Number of games complete: 18236. Total elapsed time: 9.243630070487658 hours.
+Updating opponent policies.
+Updates complete: 347. Total policy steps: 1665600. Number of games complete: 18291. Total elapsed time: 9.268093077076806 hours.
+Updating opponent policies.
+Updates complete: 348. Total policy steps: 1670400. Number of games complete: 18343. Total elapsed time: 9.292542788982391 hours.
+Updating opponent policies.
+Updates complete: 349. Total policy steps: 1675200. Number of games complete: 18391. Total elapsed time: 9.316545325583881 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 350. Total policy steps: 1680000. Number of games complete: 18449. Total elapsed time: 9.341430361602042 hours.
+Updating opponent policies.
+Updates complete: 351. Total policy steps: 1684800. Number of games complete: 18495. Total elapsed time: 9.365530554056168 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago']
+
+
+---------------------- EVALUATION (after 350 updates) ----------------------
+32 games against random. Policy won 9/32. Avg. game length: 335.375. Avg num policy decisions: 84.4375. Avg victory points for policy: 2.875. 
+32 games against policy from 25 updates ago. Policy won 5/32. Avg. game length: 359.75. Avg num policy decisions: 87.65625. Avg victory points for policy: 2.65625. 
+32 games against policy from 50 updates ago. Policy won 8/32. Avg. game length: 363.5625. Avg num policy decisions: 91.40625. Avg victory points for policy: 2.65625. 
+
+
+Updates complete: 352. Total policy steps: 1689600. Number of games complete: 18551. Total elapsed time: 9.414372026721637 hours.
+Updating opponent policies.
+Updates complete: 353. Total policy steps: 1694400. Number of games complete: 18611. Total elapsed time: 9.438751454883151 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 354. Total policy steps: 1699200. Number of games complete: 18660. Total elapsed time: 9.463288710051113 hours.
+Updating opponent policies.
+Updates complete: 355. Total policy steps: 1704000. Number of games complete: 18713. Total elapsed time: 9.488079250189994 hours.
+Updating opponent policies.
+Updates complete: 356. Total policy steps: 1708800. Number of games complete: 18784. Total elapsed time: 9.512718066639371 hours.
+Updating opponent policies.
+Updates complete: 357. Total policy steps: 1713600. Number of games complete: 18838. Total elapsed time: 9.537122623787987 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 358. Total policy steps: 1718400. Number of games complete: 18883. Total elapsed time: 9.561711546315086 hours.
+Updating opponent policies.
+Updates complete: 359. Total policy steps: 1723200. Number of games complete: 18936. Total elapsed time: 9.586042961080869 hours.
+Updating opponent policies.
+Updates complete: 360. Total policy steps: 1728000. Number of games complete: 18986. Total elapsed time: 9.610703803035948 hours.
+Updating opponent policies.
+Updates complete: 361. Total policy steps: 1732800. Number of games complete: 19054. Total elapsed time: 9.6349704029825 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 362. Total policy steps: 1737600. Number of games complete: 19116. Total elapsed time: 9.659494698445002 hours.
+Updating opponent policies.
+Updates complete: 363. Total policy steps: 1742400. Number of games complete: 19168. Total elapsed time: 9.68361902025011 hours.
+Updating opponent policies.
+Updates complete: 364. Total policy steps: 1747200. Number of games complete: 19218. Total elapsed time: 9.707924316525459 hours.
+Updating opponent policies.
+Updates complete: 365. Total policy steps: 1752000. Number of games complete: 19274. Total elapsed time: 9.732200554807982 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 366. Total policy steps: 1756800. Number of games complete: 19333. Total elapsed time: 9.756782205171055 hours.
+Updating opponent policies.
+Updates complete: 367. Total policy steps: 1761600. Number of games complete: 19379. Total elapsed time: 9.781246204839812 hours.
+Updating opponent policies.
+Updates complete: 368. Total policy steps: 1766400. Number of games complete: 19441. Total elapsed time: 9.805822418464555 hours.
+Updating opponent policies.
+Updates complete: 369. Total policy steps: 1771200. Number of games complete: 19506. Total elapsed time: 9.83019422557619 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 370. Total policy steps: 1776000. Number of games complete: 19568. Total elapsed time: 9.855036197106044 hours.
+Updating opponent policies.
+Updates complete: 371. Total policy steps: 1780800. Number of games complete: 19623. Total elapsed time: 9.879260977506638 hours.
+Updating opponent policies.
+Updates complete: 372. Total policy steps: 1785600. Number of games complete: 19675. Total elapsed time: 9.903664400246408 hours.
+Updating opponent policies.
+Updates complete: 373. Total policy steps: 1790400. Number of games complete: 19724. Total elapsed time: 9.927856458160612 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 374. Total policy steps: 1795200. Number of games complete: 19776. Total elapsed time: 9.952840734786458 hours.
+Updating opponent policies.
+Updates complete: 375. Total policy steps: 1800000. Number of games complete: 19831. Total elapsed time: 9.977487367921405 hours.
+Updating opponent policies.
+Updates complete: 376. Total policy steps: 1804800. Number of games complete: 19879. Total elapsed time: 10.001838696201643 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago']
+
+
+---------------------- EVALUATION (after 375 updates) ----------------------
+32 games against random. Policy won 10/32. Avg. game length: 318.0625. Avg num policy decisions: 86.65625. Avg victory points for policy: 3.0. 
+32 games against policy from 25 updates ago. Policy won 7/32. Avg. game length: 366.4375. Avg num policy decisions: 91.78125. Avg victory points for policy: 2.59375. 
+32 games against policy from 50 updates ago. Policy won 8/32. Avg. game length: 395.34375. Avg num policy decisions: 101.0625. Avg victory points for policy: 2.84375. 
+
+
+Updates complete: 377. Total policy steps: 1809600. Number of games complete: 19931. Total elapsed time: 10.050817096365822 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 378. Total policy steps: 1814400. Number of games complete: 19985. Total elapsed time: 10.075329753292932 hours.
+Updating opponent policies.
+Updates complete: 379. Total policy steps: 1819200. Number of games complete: 20046. Total elapsed time: 10.100204598241382 hours.
+Updating opponent policies.
+Updates complete: 380. Total policy steps: 1824000. Number of games complete: 20104. Total elapsed time: 10.124869528611502 hours.
+Updating opponent policies.
+Updates complete: 381. Total policy steps: 1828800. Number of games complete: 20170. Total elapsed time: 10.148949929740693 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 382. Total policy steps: 1833600. Number of games complete: 20210. Total elapsed time: 10.173428456385931 hours.
+Updating opponent policies.
+Updates complete: 383. Total policy steps: 1838400. Number of games complete: 20272. Total elapsed time: 10.198061738875177 hours.
+Updating opponent policies.
+Updates complete: 384. Total policy steps: 1843200. Number of games complete: 20324. Total elapsed time: 10.222915521264076 hours.
+Updating opponent policies.
+Updates complete: 385. Total policy steps: 1848000. Number of games complete: 20383. Total elapsed time: 10.2469054640664 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 386. Total policy steps: 1852800. Number of games complete: 20439. Total elapsed time: 10.270900755061044 hours.
+Updating opponent policies.
+Updates complete: 387. Total policy steps: 1857600. Number of games complete: 20503. Total elapsed time: 10.294761729968918 hours.
+Updating opponent policies.
+Updates complete: 388. Total policy steps: 1862400. Number of games complete: 20549. Total elapsed time: 10.318800918857256 hours.
+Updating opponent policies.
+Updates complete: 389. Total policy steps: 1867200. Number of games complete: 20605. Total elapsed time: 10.343037717209922 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 390. Total policy steps: 1872000. Number of games complete: 20664. Total elapsed time: 10.367683820459577 hours.
+Updating opponent policies.
+Updates complete: 391. Total policy steps: 1876800. Number of games complete: 20723. Total elapsed time: 10.39177380449242 hours.
+Updating opponent policies.
+Updates complete: 392. Total policy steps: 1881600. Number of games complete: 20760. Total elapsed time: 10.415638835761282 hours.
+Updating opponent policies.
+Updates complete: 393. Total policy steps: 1886400. Number of games complete: 20822. Total elapsed time: 10.43976279689206 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 394. Total policy steps: 1891200. Number of games complete: 20882. Total elapsed time: 10.463958420885934 hours.
+Updating opponent policies.
+Updates complete: 395. Total policy steps: 1896000. Number of games complete: 20937. Total elapsed time: 10.488564173910353 hours.
+Updating opponent policies.
+Updates complete: 396. Total policy steps: 1900800. Number of games complete: 20986. Total elapsed time: 10.512725586096446 hours.
+Updating opponent policies.
+Updates complete: 397. Total policy steps: 1905600. Number of games complete: 21033. Total elapsed time: 10.537089780635304 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 398. Total policy steps: 1910400. Number of games complete: 21098. Total elapsed time: 10.561663093633122 hours.
+Updating opponent policies.
+Updates complete: 399. Total policy steps: 1915200. Number of games complete: 21138. Total elapsed time: 10.58605283704069 hours.
+Updating opponent policies.
+Updates complete: 400. Total policy steps: 1920000. Number of games complete: 21195. Total elapsed time: 10.610459448297819 hours.
+Updating opponent policies.
+Updates complete: 401. Total policy steps: 1924800. Number of games complete: 21254. Total elapsed time: 10.635002011789217 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago', '100 updates ago']
+
+
+---------------------- EVALUATION (after 400 updates) ----------------------
+32 games against random. Policy won 12/32. Avg. game length: 322.5. Avg num policy decisions: 85.625. Avg victory points for policy: 2.96875. 
+32 games against policy from 25 updates ago. Policy won 9/32. Avg. game length: 346.8125. Avg num policy decisions: 88.90625. Avg victory points for policy: 2.9375. 
+32 games against policy from 50 updates ago. Policy won 7/32. Avg. game length: 364.40625. Avg num policy decisions: 92.5625. Avg victory points for policy: 2.6875. 
+32 games against policy from 100 updates ago. Policy won 17/32. Avg. game length: 338.9375. Avg num policy decisions: 89.09375. Avg victory points for policy: 3.3125. 
+
+
+Updates complete: 402. Total policy steps: 1929600. Number of games complete: 21307. Total elapsed time: 10.69035595913728 hours.
+Updating opponent policies.
+Updates complete: 403. Total policy steps: 1934400. Number of games complete: 21348. Total elapsed time: 10.714988354841868 hours.
+Updating opponent policies.
+Updates complete: 404. Total policy steps: 1939200. Number of games complete: 21414. Total elapsed time: 10.739605858392185 hours.
+Updating opponent policies.
+Updates complete: 405. Total policy steps: 1944000. Number of games complete: 21465. Total elapsed time: 10.764289192027515 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 406. Total policy steps: 1948800. Number of games complete: 21514. Total elapsed time: 10.789002671043079 hours.
+Updating opponent policies.
+Updates complete: 407. Total policy steps: 1953600. Number of games complete: 21559. Total elapsed time: 10.813635090059705 hours.
+Updating opponent policies.
+Updates complete: 408. Total policy steps: 1958400. Number of games complete: 21621. Total elapsed time: 10.838210695915752 hours.
+Updating opponent policies.
+Updates complete: 409. Total policy steps: 1963200. Number of games complete: 21674. Total elapsed time: 10.862899670733347 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 410. Total policy steps: 1968000. Number of games complete: 21723. Total elapsed time: 10.887629430029127 hours.
+Updating opponent policies.
+Updates complete: 411. Total policy steps: 1972800. Number of games complete: 21780. Total elapsed time: 10.912179201973808 hours.
+Updating opponent policies.
+Updates complete: 412. Total policy steps: 1977600. Number of games complete: 21827. Total elapsed time: 10.936907833086119 hours.
+Updating opponent policies.
+Updates complete: 413. Total policy steps: 1982400. Number of games complete: 21886. Total elapsed time: 10.96176600529088 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 414. Total policy steps: 1987200. Number of games complete: 21941. Total elapsed time: 10.986496321890089 hours.
+Updating opponent policies.
+Updates complete: 415. Total policy steps: 1992000. Number of games complete: 22000. Total elapsed time: 11.011389981971847 hours.
+Updating opponent policies.
+Updates complete: 416. Total policy steps: 1996800. Number of games complete: 22063. Total elapsed time: 11.035913701852163 hours.
+Updating opponent policies.
+Updates complete: 417. Total policy steps: 2001600. Number of games complete: 22107. Total elapsed time: 11.060667792426216 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 418. Total policy steps: 2006400. Number of games complete: 22162. Total elapsed time: 11.085327224466536 hours.
+Updating opponent policies.
+Updates complete: 419. Total policy steps: 2011200. Number of games complete: 22221. Total elapsed time: 11.109621816343731 hours.
+Updating opponent policies.
+Updates complete: 420. Total policy steps: 2016000. Number of games complete: 22263. Total elapsed time: 11.134362650447422 hours.
+Updating opponent policies.
+Updates complete: 421. Total policy steps: 2020800. Number of games complete: 22309. Total elapsed time: 11.15912289155854 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 422. Total policy steps: 2025600. Number of games complete: 22368. Total elapsed time: 11.183838509254985 hours.
+Updating opponent policies.
+Updates complete: 423. Total policy steps: 2030400. Number of games complete: 22429. Total elapsed time: 11.208688638011614 hours.
+Updating opponent policies.
+Updates complete: 424. Total policy steps: 2035200. Number of games complete: 22484. Total elapsed time: 11.233338392972946 hours.
+Updating opponent policies.
+Updates complete: 425. Total policy steps: 2040000. Number of games complete: 22543. Total elapsed time: 11.258104632761743 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 426. Total policy steps: 2044800. Number of games complete: 22588. Total elapsed time: 11.282518043120701 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago', '100 updates ago']
+
+
+---------------------- EVALUATION (after 425 updates) ----------------------
+32 games against random. Policy won 10/32. Avg. game length: 386.9375. Avg num policy decisions: 100.40625. Avg victory points for policy: 2.84375. 
+32 games against policy from 25 updates ago. Policy won 10/32. Avg. game length: 377.53125. Avg num policy decisions: 97.0. Avg victory points for policy: 2.90625. 
+32 games against policy from 50 updates ago. Policy won 5/32. Avg. game length: 436.625. Avg num policy decisions: 108.03125. Avg victory points for policy: 2.625. 
+32 games against policy from 100 updates ago. Policy won 11/32. Avg. game length: 392.03125. Avg num policy decisions: 103.46875. Avg victory points for policy: 3.0625. 
+
+
+Updates complete: 427. Total policy steps: 2049600. Number of games complete: 22640. Total elapsed time: 11.341523419221243 hours.
+Updating opponent policies.
+Updates complete: 428. Total policy steps: 2054400. Number of games complete: 22695. Total elapsed time: 11.366171869834265 hours.
+Updating opponent policies.
+Updates complete: 429. Total policy steps: 2059200. Number of games complete: 22740. Total elapsed time: 11.390770071943601 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 430. Total policy steps: 2064000. Number of games complete: 22796. Total elapsed time: 11.415356466240354 hours.
+Updating opponent policies.
+Updates complete: 431. Total policy steps: 2068800. Number of games complete: 22850. Total elapsed time: 11.440046350095008 hours.
+Updating opponent policies.
+Updates complete: 432. Total policy steps: 2073600. Number of games complete: 22899. Total elapsed time: 11.464553569290374 hours.
+Updating opponent policies.
+Updates complete: 433. Total policy steps: 2078400. Number of games complete: 22952. Total elapsed time: 11.489043187499046 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 434. Total policy steps: 2083200. Number of games complete: 23005. Total elapsed time: 11.513539656003315 hours.
+Updating opponent policies.
+Updates complete: 435. Total policy steps: 2088000. Number of games complete: 23056. Total elapsed time: 11.538327417506112 hours.
+Updating opponent policies.
+Updates complete: 436. Total policy steps: 2092800. Number of games complete: 23105. Total elapsed time: 11.56292889535427 hours.
+Updating opponent policies.
+Updates complete: 437. Total policy steps: 2097600. Number of games complete: 23167. Total elapsed time: 11.588038159542613 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 438. Total policy steps: 2102400. Number of games complete: 23215. Total elapsed time: 11.612676987979148 hours.
+Updating opponent policies.
+Updates complete: 439. Total policy steps: 2107200. Number of games complete: 23268. Total elapsed time: 11.637442090047731 hours.
+Updating opponent policies.
+Updates complete: 440. Total policy steps: 2112000. Number of games complete: 23321. Total elapsed time: 11.662309727999899 hours.
+Updating opponent policies.
+Updates complete: 441. Total policy steps: 2116800. Number of games complete: 23379. Total elapsed time: 11.687123317784733 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 442. Total policy steps: 2121600. Number of games complete: 23435. Total elapsed time: 11.712095005181101 hours.
+Updating opponent policies.
+Updates complete: 443. Total policy steps: 2126400. Number of games complete: 23489. Total elapsed time: 11.73705955459012 hours.
+Updating opponent policies.
+Updates complete: 444. Total policy steps: 2131200. Number of games complete: 23543. Total elapsed time: 11.761961417595545 hours.
+Updating opponent policies.
+Updates complete: 445. Total policy steps: 2136000. Number of games complete: 23598. Total elapsed time: 11.786787823438644 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 446. Total policy steps: 2140800. Number of games complete: 23643. Total elapsed time: 11.811629105872578 hours.
+Updating opponent policies.
+Updates complete: 447. Total policy steps: 2145600. Number of games complete: 23697. Total elapsed time: 11.83640723976824 hours.
+Updating opponent policies.
+Updates complete: 448. Total policy steps: 2150400. Number of games complete: 23757. Total elapsed time: 11.860834040575558 hours.
+Updating opponent policies.
+Updates complete: 449. Total policy steps: 2155200. Number of games complete: 23813. Total elapsed time: 11.885529344346788 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 450. Total policy steps: 2160000. Number of games complete: 23863. Total elapsed time: 11.91131082892418 hours.
+Updating opponent policies.
+Updates complete: 451. Total policy steps: 2164800. Number of games complete: 23917. Total elapsed time: 11.93580916987525 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago', '100 updates ago']
+
+
+---------------------- EVALUATION (after 450 updates) ----------------------
+32 games against random. Policy won 11/32. Avg. game length: 316.65625. Avg num policy decisions: 83.34375. Avg victory points for policy: 2.9375. 
+32 games against policy from 25 updates ago. Policy won 15/32. Avg. game length: 389.59375. Avg num policy decisions: 99.90625. Avg victory points for policy: 3.15625. 
+32 games against policy from 50 updates ago. Policy won 6/32. Avg. game length: 408.75. Avg num policy decisions: 101.8125. Avg victory points for policy: 2.65625. 
+32 games against policy from 100 updates ago. Policy won 11/32. Avg. game length: 353.15625. Avg num policy decisions: 88.0625. Avg victory points for policy: 2.875. 
+
+
+Updates complete: 452. Total policy steps: 2169600. Number of games complete: 23975. Total elapsed time: 11.993403798209297 hours.
+Updating opponent policies.
+Updates complete: 453. Total policy steps: 2174400. Number of games complete: 24022. Total elapsed time: 12.017916237645679 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 454. Total policy steps: 2179200. Number of games complete: 24079. Total elapsed time: 12.04305763953262 hours.
+Updating opponent policies.
+Updates complete: 455. Total policy steps: 2184000. Number of games complete: 24144. Total elapsed time: 12.0676977670855 hours.
+Updating opponent policies.
+Updates complete: 456. Total policy steps: 2188800. Number of games complete: 24198. Total elapsed time: 12.092336670955023 hours.
+Updating opponent policies.
+Updates complete: 457. Total policy steps: 2193600. Number of games complete: 24249. Total elapsed time: 12.11700198425187 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 458. Total policy steps: 2198400. Number of games complete: 24305. Total elapsed time: 12.141632008353868 hours.
+Updating opponent policies.
+Updates complete: 459. Total policy steps: 2203200. Number of games complete: 24354. Total elapsed time: 12.166763285133573 hours.
+Updating opponent policies.
+Updates complete: 460. Total policy steps: 2208000. Number of games complete: 24416. Total elapsed time: 12.191580409937435 hours.
+Updating opponent policies.
+Updates complete: 461. Total policy steps: 2212800. Number of games complete: 24460. Total elapsed time: 12.216312493946818 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 462. Total policy steps: 2217600. Number of games complete: 24512. Total elapsed time: 12.24115856303109 hours.
+Updating opponent policies.
+Updates complete: 463. Total policy steps: 2222400. Number of games complete: 24570. Total elapsed time: 12.266301634444131 hours.
+Updating opponent policies.
+Updates complete: 464. Total policy steps: 2227200. Number of games complete: 24638. Total elapsed time: 12.291737581292788 hours.
+Updating opponent policies.
+Updates complete: 465. Total policy steps: 2232000. Number of games complete: 24683. Total elapsed time: 12.316742407944467 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 466. Total policy steps: 2236800. Number of games complete: 24739. Total elapsed time: 12.341429511507352 hours.
+Updating opponent policies.
+Updates complete: 467. Total policy steps: 2241600. Number of games complete: 24792. Total elapsed time: 12.365875863764021 hours.
+Updating opponent policies.
+Updates complete: 468. Total policy steps: 2246400. Number of games complete: 24848. Total elapsed time: 12.390870694120725 hours.
+Updating opponent policies.
+Updates complete: 469. Total policy steps: 2251200. Number of games complete: 24913. Total elapsed time: 12.415637836323844 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 470. Total policy steps: 2256000. Number of games complete: 24954. Total elapsed time: 12.440330271985795 hours.
+Updating opponent policies.
+Updates complete: 471. Total policy steps: 2260800. Number of games complete: 25002. Total elapsed time: 12.465254296859106 hours.
+Updating opponent policies.
+Updates complete: 472. Total policy steps: 2265600. Number of games complete: 25050. Total elapsed time: 12.489790911542045 hours.
+Updating opponent policies.
+Updates complete: 473. Total policy steps: 2270400. Number of games complete: 25115. Total elapsed time: 12.515021939410104 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 474. Total policy steps: 2275200. Number of games complete: 25178. Total elapsed time: 12.539987571703064 hours.
+Updating opponent policies.
+Updates complete: 475. Total policy steps: 2280000. Number of games complete: 25236. Total elapsed time: 12.565003458393944 hours.
+Updating opponent policies.
+Updates complete: 476. Total policy steps: 2284800. Number of games complete: 25285. Total elapsed time: 12.58990488615301 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago', '100 updates ago']
+
+
+---------------------- EVALUATION (after 475 updates) ----------------------
+32 games against random. Policy won 9/32. Avg. game length: 410.0. Avg num policy decisions: 108.875. Avg victory points for policy: 3.0. 
+32 games against policy from 25 updates ago. Policy won 15/32. Avg. game length: 404.0. Avg num policy decisions: 99.40625. Avg victory points for policy: 3.3125. 
+32 games against policy from 50 updates ago. Policy won 8/32. Avg. game length: 429.9375. Avg num policy decisions: 105.65625. Avg victory points for policy: 2.84375. 
+32 games against policy from 100 updates ago. Policy won 8/32. Avg. game length: 406.5. Avg num policy decisions: 104.53125. Avg victory points for policy: 2.71875. 
+
+
+Updates complete: 477. Total policy steps: 2289600. Number of games complete: 25334. Total elapsed time: 12.65432975590229 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 478. Total policy steps: 2294400. Number of games complete: 25390. Total elapsed time: 12.679182338118553 hours.
+Updating opponent policies.
+Updates complete: 479. Total policy steps: 2299200. Number of games complete: 25442. Total elapsed time: 12.70387666285038 hours.
+Updating opponent policies.
+Updates complete: 480. Total policy steps: 2304000. Number of games complete: 25488. Total elapsed time: 12.728663948774338 hours.
+Updating opponent policies.
+Updates complete: 481. Total policy steps: 2308800. Number of games complete: 25549. Total elapsed time: 12.75318180832598 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 482. Total policy steps: 2313600. Number of games complete: 25601. Total elapsed time: 12.77806199491024 hours.
+Updating opponent policies.
+Updates complete: 483. Total policy steps: 2318400. Number of games complete: 25661. Total elapsed time: 12.803033203482627 hours.
+Updating opponent policies.
+Updates complete: 484. Total policy steps: 2323200. Number of games complete: 25717. Total elapsed time: 12.827843355735142 hours.
+Updating opponent policies.
+Updates complete: 485. Total policy steps: 2328000. Number of games complete: 25771. Total elapsed time: 12.852961854272419 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 486. Total policy steps: 2332800. Number of games complete: 25819. Total elapsed time: 12.877870126830206 hours.
+Updating opponent policies.
+Updates complete: 487. Total policy steps: 2337600. Number of games complete: 25876. Total elapsed time: 12.902838464710447 hours.
+Updating opponent policies.
+Updates complete: 488. Total policy steps: 2342400. Number of games complete: 25933. Total elapsed time: 12.927676040132841 hours.
+Updating opponent policies.
+Updates complete: 489. Total policy steps: 2347200. Number of games complete: 25981. Total elapsed time: 12.95251459830337 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 490. Total policy steps: 2352000. Number of games complete: 26032. Total elapsed time: 12.977648634579447 hours.
+Updating opponent policies.
+Updates complete: 491. Total policy steps: 2356800. Number of games complete: 26087. Total elapsed time: 13.002625632286072 hours.
+Updating opponent policies.
+Updates complete: 492. Total policy steps: 2361600. Number of games complete: 26132. Total elapsed time: 13.027591237094667 hours.
+Updating opponent policies.
+Updates complete: 493. Total policy steps: 2366400. Number of games complete: 26189. Total elapsed time: 13.052376610106892 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 494. Total policy steps: 2371200. Number of games complete: 26230. Total elapsed time: 13.07742102821668 hours.
+Updating opponent policies.
+Updates complete: 495. Total policy steps: 2376000. Number of games complete: 26285. Total elapsed time: 13.10265077650547 hours.
+Updating opponent policies.
+Updates complete: 496. Total policy steps: 2380800. Number of games complete: 26336. Total elapsed time: 13.127248114479913 hours.
+Updating opponent policies.
+Updates complete: 497. Total policy steps: 2385600. Number of games complete: 26395. Total elapsed time: 13.152070465154118 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 498. Total policy steps: 2390400. Number of games complete: 26454. Total elapsed time: 13.177143417331907 hours.
+Updating opponent policies.
+Updates complete: 499. Total policy steps: 2395200. Number of games complete: 26505. Total elapsed time: 13.20194972819752 hours.
+Updating opponent policies.
+Updates complete: 500. Total policy steps: 2400000. Number of games complete: 26561. Total elapsed time: 13.22673692173428 hours.
+Updating opponent policies.
+Updates complete: 501. Total policy steps: 2404800. Number of games complete: 26615. Total elapsed time: 13.251420191725096 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago', '100 updates ago']
+
+
+---------------------- EVALUATION (after 500 updates) ----------------------
+32 games against random. Policy won 11/32. Avg. game length: 376.90625. Avg num policy decisions: 104.34375. Avg victory points for policy: 2.875. 
+32 games against policy from 25 updates ago. Policy won 5/32. Avg. game length: 419.5. Avg num policy decisions: 109.9375. Avg victory points for policy: 2.5. 
+32 games against policy from 50 updates ago. Policy won 7/32. Avg. game length: 347.15625. Avg num policy decisions: 90.75. Avg victory points for policy: 2.6875. 
+32 games against policy from 100 updates ago. Policy won 12/32. Avg. game length: 413.25. Avg num policy decisions: 110.1875. Avg victory points for policy: 3.0. 
+
+
+Updates complete: 502. Total policy steps: 2409600. Number of games complete: 26673. Total elapsed time: 13.310406725207965 hours.
+Updating opponent policies.
+Updates complete: 503. Total policy steps: 2414400. Number of games complete: 26724. Total elapsed time: 13.334986930158403 hours.
+Updating opponent policies.
+Updates complete: 504. Total policy steps: 2419200. Number of games complete: 26773. Total elapsed time: 13.359703921013407 hours.
+Updating opponent policies.
+Updates complete: 505. Total policy steps: 2424000. Number of games complete: 26823. Total elapsed time: 13.3846386726035 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 506. Total policy steps: 2428800. Number of games complete: 26870. Total elapsed time: 13.409522018498844 hours.
+Updating opponent policies.
+Updates complete: 507. Total policy steps: 2433600. Number of games complete: 26912. Total elapsed time: 13.43395382947392 hours.
+Updating opponent policies.
+Updates complete: 508. Total policy steps: 2438400. Number of games complete: 26967. Total elapsed time: 13.458462050623364 hours.
+Updating opponent policies.
+Updates complete: 509. Total policy steps: 2443200. Number of games complete: 27021. Total elapsed time: 13.483315778507126 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 510. Total policy steps: 2448000. Number of games complete: 27071. Total elapsed time: 13.50810452984439 hours.
+Updating opponent policies.
+Updates complete: 511. Total policy steps: 2452800. Number of games complete: 27124. Total elapsed time: 13.532920423613655 hours.
+Updating opponent policies.
+Updates complete: 512. Total policy steps: 2457600. Number of games complete: 27177. Total elapsed time: 13.557567914658122 hours.
+Updating opponent policies.
+Updates complete: 513. Total policy steps: 2462400. Number of games complete: 27226. Total elapsed time: 13.582641623152627 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 514. Total policy steps: 2467200. Number of games complete: 27282. Total elapsed time: 13.607352078093422 hours.
+Updating opponent policies.
+Updates complete: 515. Total policy steps: 2472000. Number of games complete: 27331. Total elapsed time: 13.631913016637167 hours.
+Updating opponent policies.
+Updates complete: 516. Total policy steps: 2476800. Number of games complete: 27380. Total elapsed time: 13.656822609239155 hours.
+Updating opponent policies.
+Updates complete: 517. Total policy steps: 2481600. Number of games complete: 27441. Total elapsed time: 13.681716138588058 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 518. Total policy steps: 2486400. Number of games complete: 27497. Total elapsed time: 13.706842258969942 hours.
+Updating opponent policies.
+Updates complete: 519. Total policy steps: 2491200. Number of games complete: 27554. Total elapsed time: 13.731942242715094 hours.
+Updating opponent policies.
+Updates complete: 520. Total policy steps: 2496000. Number of games complete: 27607. Total elapsed time: 13.757136088874605 hours.
+Updating opponent policies.
+Updates complete: 521. Total policy steps: 2500800. Number of games complete: 27662. Total elapsed time: 13.782376192145877 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 522. Total policy steps: 2505600. Number of games complete: 27714. Total elapsed time: 13.80738476852576 hours.
+Updating opponent policies.
+Updates complete: 523. Total policy steps: 2510400. Number of games complete: 27769. Total elapsed time: 13.832766564620865 hours.
+Updating opponent policies.
+Updates complete: 524. Total policy steps: 2515200. Number of games complete: 27818. Total elapsed time: 13.85790058016777 hours.
+Updating opponent policies.
+Updates complete: 525. Total policy steps: 2520000. Number of games complete: 27874. Total elapsed time: 13.88335817191336 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 526. Total policy steps: 2524800. Number of games complete: 27931. Total elapsed time: 13.90858763370249 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago', '100 updates ago']
+
+
+---------------------- EVALUATION (after 525 updates) ----------------------
+32 games against random. Policy won 6/32. Avg. game length: 336.53125. Avg num policy decisions: 91.90625. Avg victory points for policy: 2.65625. 
+32 games against policy from 25 updates ago. Policy won 14/32. Avg. game length: 355.0625. Avg num policy decisions: 88.6875. Avg victory points for policy: 3.15625. 
+32 games against policy from 50 updates ago. Policy won 11/32. Avg. game length: 314.53125. Avg num policy decisions: 81.0625. Avg victory points for policy: 2.8125. 
+32 games against policy from 100 updates ago. Policy won 10/32. Avg. game length: 343.46875. Avg num policy decisions: 90.96875. Avg victory points for policy: 2.8125. 
+
+
+Updates complete: 527. Total policy steps: 2529600. Number of games complete: 27998. Total elapsed time: 13.965038444399834 hours.
+Updating opponent policies.
+Updates complete: 528. Total policy steps: 2534400. Number of games complete: 28053. Total elapsed time: 13.990648682581053 hours.
+Updating opponent policies.
+Updates complete: 529. Total policy steps: 2539200. Number of games complete: 28111. Total elapsed time: 14.015988842712508 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 530. Total policy steps: 2544000. Number of games complete: 28161. Total elapsed time: 14.04186219420698 hours.
+Updating opponent policies.
+Updates complete: 531. Total policy steps: 2548800. Number of games complete: 28199. Total elapsed time: 14.067788287003834 hours.
+Updating opponent policies.
+Updates complete: 532. Total policy steps: 2553600. Number of games complete: 28263. Total elapsed time: 14.095843037101957 hours.
+Updating opponent policies.
+Updates complete: 533. Total policy steps: 2558400. Number of games complete: 28323. Total elapsed time: 14.124174148307906 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 534. Total policy steps: 2563200. Number of games complete: 28367. Total elapsed time: 14.152412502235837 hours.
+Updating opponent policies.
+Updates complete: 535. Total policy steps: 2568000. Number of games complete: 28421. Total elapsed time: 14.180741756425963 hours.
+Updating opponent policies.
+Updates complete: 536. Total policy steps: 2572800. Number of games complete: 28475. Total elapsed time: 14.208791685899099 hours.
+Updating opponent policies.
+Updates complete: 537. Total policy steps: 2577600. Number of games complete: 28514. Total elapsed time: 14.237190284596549 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 538. Total policy steps: 2582400. Number of games complete: 28580. Total elapsed time: 14.266360364953677 hours.
+Updating opponent policies.
+Updates complete: 539. Total policy steps: 2587200. Number of games complete: 28625. Total elapsed time: 14.295099629163742 hours.
+Updating opponent policies.
+Updates complete: 540. Total policy steps: 2592000. Number of games complete: 28681. Total elapsed time: 14.323570834861862 hours.
+Updating opponent policies.
+Updates complete: 541. Total policy steps: 2596800. Number of games complete: 28734. Total elapsed time: 14.352880912688043 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 542. Total policy steps: 2601600. Number of games complete: 28774. Total elapsed time: 14.38175572792689 hours.
+Updating opponent policies.
+Updates complete: 543. Total policy steps: 2606400. Number of games complete: 28831. Total elapsed time: 14.410517715679275 hours.
+Updating opponent policies.
+Updates complete: 544. Total policy steps: 2611200. Number of games complete: 28886. Total elapsed time: 14.439617014990912 hours.
+Updating opponent policies.
+Updates complete: 545. Total policy steps: 2616000. Number of games complete: 28937. Total elapsed time: 14.46809635731909 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 546. Total policy steps: 2620800. Number of games complete: 29000. Total elapsed time: 14.496954091588655 hours.
+Updating opponent policies.
+Updates complete: 547. Total policy steps: 2625600. Number of games complete: 29049. Total elapsed time: 14.525770386854807 hours.
+Updating opponent policies.
+Updates complete: 548. Total policy steps: 2630400. Number of games complete: 29100. Total elapsed time: 14.554264103107982 hours.
+Updating opponent policies.
+Updates complete: 549. Total policy steps: 2635200. Number of games complete: 29151. Total elapsed time: 14.58332780751917 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 550. Total policy steps: 2640000. Number of games complete: 29211. Total elapsed time: 14.611947659916348 hours.
+Updating opponent policies.
+Updates complete: 551. Total policy steps: 2644800. Number of games complete: 29256. Total elapsed time: 14.640318709148302 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago', '100 updates ago']
+
+
+---------------------- EVALUATION (after 550 updates) ----------------------
+32 games against random. Policy won 9/32. Avg. game length: 338.59375. Avg num policy decisions: 89.3125. Avg victory points for policy: 2.875. 
+32 games against policy from 25 updates ago. Policy won 9/32. Avg. game length: 426.125. Avg num policy decisions: 105.84375. Avg victory points for policy: 2.84375. 
+32 games against policy from 50 updates ago. Policy won 8/32. Avg. game length: 348.09375. Avg num policy decisions: 88.96875. Avg victory points for policy: 2.8125. 
+32 games against policy from 100 updates ago. Policy won 8/32. Avg. game length: 381.375. Avg num policy decisions: 97.625. Avg victory points for policy: 2.875. 
+
+
+Updates complete: 552. Total policy steps: 2649600. Number of games complete: 29304. Total elapsed time: 14.709407450490527 hours.
+Updating opponent policies.
+Updates complete: 553. Total policy steps: 2654400. Number of games complete: 29360. Total elapsed time: 14.73830074581835 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 554. Total policy steps: 2659200. Number of games complete: 29408. Total elapsed time: 14.766943400568433 hours.
+Updating opponent policies.
+Updates complete: 555. Total policy steps: 2664000. Number of games complete: 29465. Total elapsed time: 14.795817305048306 hours.
+Updating opponent policies.
+Updates complete: 556. Total policy steps: 2668800. Number of games complete: 29523. Total elapsed time: 14.824630865388446 hours.
+Updating opponent policies.
+Updates complete: 557. Total policy steps: 2673600. Number of games complete: 29580. Total elapsed time: 14.853586315843794 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 558. Total policy steps: 2678400. Number of games complete: 29634. Total elapsed time: 14.882448450591829 hours.
+Updating opponent policies.
+Updates complete: 559. Total policy steps: 2683200. Number of games complete: 29685. Total elapsed time: 14.911400204499563 hours.
+Updating opponent policies.
+Updates complete: 560. Total policy steps: 2688000. Number of games complete: 29744. Total elapsed time: 14.940637082126406 hours.
+Updating opponent policies.
+Updates complete: 561. Total policy steps: 2692800. Number of games complete: 29798. Total elapsed time: 14.969641213681962 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 562. Total policy steps: 2697600. Number of games complete: 29851. Total elapsed time: 14.998818174203237 hours.
+Updating opponent policies.
+Updates complete: 563. Total policy steps: 2702400. Number of games complete: 29909. Total elapsed time: 15.027175313366785 hours.
+Updating opponent policies.
+Updates complete: 564. Total policy steps: 2707200. Number of games complete: 29960. Total elapsed time: 15.055973961816894 hours.
+Updating opponent policies.
+Updates complete: 565. Total policy steps: 2712000. Number of games complete: 30009. Total elapsed time: 15.084809601902961 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 566. Total policy steps: 2716800. Number of games complete: 30065. Total elapsed time: 15.113431738879946 hours.
+Updating opponent policies.
+Updates complete: 567. Total policy steps: 2721600. Number of games complete: 30113. Total elapsed time: 15.141709156831105 hours.
+Updating opponent policies.
+Updates complete: 568. Total policy steps: 2726400. Number of games complete: 30176. Total elapsed time: 15.17065580546856 hours.
+Updating opponent policies.
+Updates complete: 569. Total policy steps: 2731200. Number of games complete: 30231. Total elapsed time: 15.199606710738607 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 570. Total policy steps: 2736000. Number of games complete: 30293. Total elapsed time: 15.228271604180335 hours.
+Updating opponent policies.
+Updates complete: 571. Total policy steps: 2740800. Number of games complete: 30344. Total elapsed time: 15.25656034886837 hours.
+Updating opponent policies.
+Updates complete: 572. Total policy steps: 2745600. Number of games complete: 30405. Total elapsed time: 15.285159388714366 hours.
+Updating opponent policies.
+Updates complete: 573. Total policy steps: 2750400. Number of games complete: 30458. Total elapsed time: 15.313688119914797 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 574. Total policy steps: 2755200. Number of games complete: 30506. Total elapsed time: 15.342077065043979 hours.
+Updating opponent policies.
+Updates complete: 575. Total policy steps: 2760000. Number of games complete: 30557. Total elapsed time: 15.371446679035822 hours.
+Updating opponent policies.
+Updates complete: 576. Total policy steps: 2764800. Number of games complete: 30606. Total elapsed time: 15.40037317123678 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago', '100 updates ago']
+
+
+---------------------- EVALUATION (after 575 updates) ----------------------
+32 games against random. Policy won 12/32. Avg. game length: 331.0625. Avg num policy decisions: 89.03125. Avg victory points for policy: 3.03125. 
+32 games against policy from 25 updates ago. Policy won 9/32. Avg. game length: 393.59375. Avg num policy decisions: 100.125. Avg victory points for policy: 2.78125. 
+32 games against policy from 50 updates ago. Policy won 13/32. Avg. game length: 444.625. Avg num policy decisions: 112.40625. Avg victory points for policy: 2.9375. 
+32 games against policy from 100 updates ago. Policy won 8/32. Avg. game length: 365.75. Avg num policy decisions: 94.21875. Avg victory points for policy: 2.71875. 
+
+
+Updates complete: 577. Total policy steps: 2769600. Number of games complete: 30660. Total elapsed time: 15.469273058043585 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 578. Total policy steps: 2774400. Number of games complete: 30704. Total elapsed time: 15.497688729961713 hours.
+Updating opponent policies.
+Updates complete: 579. Total policy steps: 2779200. Number of games complete: 30774. Total elapsed time: 15.526351281404494 hours.
+Updating opponent policies.
+Updates complete: 580. Total policy steps: 2784000. Number of games complete: 30824. Total elapsed time: 15.554665457540088 hours.
+Updating opponent policies.
+Updates complete: 581. Total policy steps: 2788800. Number of games complete: 30879. Total elapsed time: 15.583039434221055 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 582. Total policy steps: 2793600. Number of games complete: 30931. Total elapsed time: 15.611710396409034 hours.
+Updating opponent policies.
+Updates complete: 583. Total policy steps: 2798400. Number of games complete: 30995. Total elapsed time: 15.640671445065074 hours.
+Updating opponent policies.
+Updates complete: 584. Total policy steps: 2803200. Number of games complete: 31042. Total elapsed time: 15.669386582705709 hours.
+Updating opponent policies.
+Updates complete: 585. Total policy steps: 2808000. Number of games complete: 31087. Total elapsed time: 15.698327818579145 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 586. Total policy steps: 2812800. Number of games complete: 31154. Total elapsed time: 15.727223944266637 hours.
+Updating opponent policies.
+Updates complete: 587. Total policy steps: 2817600. Number of games complete: 31225. Total elapsed time: 15.756043408115705 hours.
+Updating opponent policies.
+Updates complete: 588. Total policy steps: 2822400. Number of games complete: 31274. Total elapsed time: 15.784974887238608 hours.
+Updating opponent policies.
+Updates complete: 589. Total policy steps: 2827200. Number of games complete: 31319. Total elapsed time: 15.814214880334006 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 590. Total policy steps: 2832000. Number of games complete: 31368. Total elapsed time: 15.843152279059092 hours.
+Updating opponent policies.
+Updates complete: 591. Total policy steps: 2836800. Number of games complete: 31426. Total elapsed time: 15.872211860749456 hours.
+Updating opponent policies.
+Updates complete: 592. Total policy steps: 2841600. Number of games complete: 31483. Total elapsed time: 15.901285693976615 hours.
+Updating opponent policies.
+Updates complete: 593. Total policy steps: 2846400. Number of games complete: 31538. Total elapsed time: 15.930316871735785 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 594. Total policy steps: 2851200. Number of games complete: 31579. Total elapsed time: 15.959430807696448 hours.
+Updating opponent policies.
+Updates complete: 595. Total policy steps: 2856000. Number of games complete: 31643. Total elapsed time: 15.988340570794211 hours.
+Updating opponent policies.
+Updates complete: 596. Total policy steps: 2860800. Number of games complete: 31699. Total elapsed time: 16.01757298019197 hours.
+Updating opponent policies.
+Updates complete: 597. Total policy steps: 2865600. Number of games complete: 31761. Total elapsed time: 16.04658423854245 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 598. Total policy steps: 2870400. Number of games complete: 31816. Total elapsed time: 16.07559390882651 hours.
+Updating opponent policies.
+Updates complete: 599. Total policy steps: 2875200. Number of games complete: 31867. Total elapsed time: 16.104695295823944 hours.
+Updating opponent policies.
+Updates complete: 600. Total policy steps: 2880000. Number of games complete: 31926. Total elapsed time: 16.133482496539752 hours.
+Updating opponent policies.
+Updates complete: 601. Total policy steps: 2884800. Number of games complete: 31977. Total elapsed time: 16.162359682189095 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago', '100 updates ago']
+
+
+---------------------- EVALUATION (after 600 updates) ----------------------
+32 games against random. Policy won 13/32. Avg. game length: 374.59375. Avg num policy decisions: 100.9375. Avg victory points for policy: 3.09375. 
+32 games against policy from 25 updates ago. Policy won 6/32. Avg. game length: 445.15625. Avg num policy decisions: 107.96875. Avg victory points for policy: 2.625. 
+32 games against policy from 50 updates ago. Policy won 11/32. Avg. game length: 425.34375. Avg num policy decisions: 111.3125. Avg victory points for policy: 2.90625. 
+32 games against policy from 100 updates ago. Policy won 9/32. Avg. game length: 382.375. Avg num policy decisions: 102.46875. Avg victory points for policy: 2.9375. 
+
+
+Updates complete: 602. Total policy steps: 2889600. Number of games complete: 32026. Total elapsed time: 16.234850261873667 hours.
+Updating opponent policies.
+Updates complete: 603. Total policy steps: 2894400. Number of games complete: 32075. Total elapsed time: 16.263388552069664 hours.
+Updating opponent policies.
+Updates complete: 604. Total policy steps: 2899200. Number of games complete: 32131. Total elapsed time: 16.292271745006243 hours.
+Updating opponent policies.
+Updates complete: 605. Total policy steps: 2904000. Number of games complete: 32191. Total elapsed time: 16.320830342239805 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 606. Total policy steps: 2908800. Number of games complete: 32253. Total elapsed time: 16.34982503698932 hours.
+Updating opponent policies.
+Updates complete: 607. Total policy steps: 2913600. Number of games complete: 32312. Total elapsed time: 16.378592274718816 hours.
+Updating opponent policies.
+Updates complete: 608. Total policy steps: 2918400. Number of games complete: 32361. Total elapsed time: 16.40748917930656 hours.
+Updating opponent policies.
+Updates complete: 609. Total policy steps: 2923200. Number of games complete: 32419. Total elapsed time: 16.436987808148068 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 610. Total policy steps: 2928000. Number of games complete: 32464. Total elapsed time: 16.465704763266775 hours.
+Updating opponent policies.
+Updates complete: 611. Total policy steps: 2932800. Number of games complete: 32507. Total elapsed time: 16.494703334305022 hours.
+Updating opponent policies.
+Updates complete: 612. Total policy steps: 2937600. Number of games complete: 32570. Total elapsed time: 16.52344934463501 hours.
+Updating opponent policies.
+Updates complete: 613. Total policy steps: 2942400. Number of games complete: 32626. Total elapsed time: 16.552447727123898 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 614. Total policy steps: 2947200. Number of games complete: 32683. Total elapsed time: 16.580896007551086 hours.
+Updating opponent policies.
+Updates complete: 615. Total policy steps: 2952000. Number of games complete: 32742. Total elapsed time: 16.609629149304496 hours.
+Updating opponent policies.
+Updates complete: 616. Total policy steps: 2956800. Number of games complete: 32796. Total elapsed time: 16.638071313699086 hours.
+Updating opponent policies.
+Updates complete: 617. Total policy steps: 2961600. Number of games complete: 32843. Total elapsed time: 16.66638007733557 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 618. Total policy steps: 2966400. Number of games complete: 32904. Total elapsed time: 16.695396022200583 hours.
+Updating opponent policies.
+Updates complete: 619. Total policy steps: 2971200. Number of games complete: 32967. Total elapsed time: 16.724070255557695 hours.
+Updating opponent policies.
+Updates complete: 620. Total policy steps: 2976000. Number of games complete: 33020. Total elapsed time: 16.752971898648475 hours.
+Updating opponent policies.
+Updates complete: 621. Total policy steps: 2980800. Number of games complete: 33065. Total elapsed time: 16.782178766131402 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 622. Total policy steps: 2985600. Number of games complete: 33119. Total elapsed time: 16.81123337606589 hours.
+Updating opponent policies.
+Updates complete: 623. Total policy steps: 2990400. Number of games complete: 33177. Total elapsed time: 16.839865841137037 hours.
+Updating opponent policies.
+Updates complete: 624. Total policy steps: 2995200. Number of games complete: 33234. Total elapsed time: 16.868737997346454 hours.
+Updating opponent policies.
+Updates complete: 625. Total policy steps: 3000000. Number of games complete: 33275. Total elapsed time: 16.897468524045415 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 626. Total policy steps: 3004800. Number of games complete: 33336. Total elapsed time: 16.926205194923615 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago', '100 updates ago']
+
+
+---------------------- EVALUATION (after 625 updates) ----------------------
+32 games against random. Policy won 10/32. Avg. game length: 359.90625. Avg num policy decisions: 100.78125. Avg victory points for policy: 2.90625. 
+32 games against policy from 25 updates ago. Policy won 9/32. Avg. game length: 344.75. Avg num policy decisions: 86.0. Avg victory points for policy: 2.75. 
+32 games against policy from 50 updates ago. Policy won 9/32. Avg. game length: 371.4375. Avg num policy decisions: 91.53125. Avg victory points for policy: 2.6875. 
+32 games against policy from 100 updates ago. Policy won 11/32. Avg. game length: 383.53125. Avg num policy decisions: 98.0625. Avg victory points for policy: 2.90625. 
+
+
+Updates complete: 627. Total policy steps: 3009600. Number of games complete: 33390. Total elapsed time: 16.995511399176387 hours.
+Updating opponent policies.
+Updates complete: 628. Total policy steps: 3014400. Number of games complete: 33447. Total elapsed time: 17.024504998591212 hours.
+Updating opponent policies.
+Updates complete: 629. Total policy steps: 3019200. Number of games complete: 33485. Total elapsed time: 17.053331646323205 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 630. Total policy steps: 3024000. Number of games complete: 33536. Total elapsed time: 17.08229695028729 hours.
+Updating opponent policies.
+Updates complete: 631. Total policy steps: 3028800. Number of games complete: 33599. Total elapsed time: 17.110968194802602 hours.
+Updating opponent policies.
+Updates complete: 632. Total policy steps: 3033600. Number of games complete: 33645. Total elapsed time: 17.139802365170585 hours.
+Updating opponent policies.
+Updates complete: 633. Total policy steps: 3038400. Number of games complete: 33695. Total elapsed time: 17.16865403685305 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 634. Total policy steps: 3043200. Number of games complete: 33742. Total elapsed time: 17.197836144169173 hours.
+Updating opponent policies.
+Updates complete: 635. Total policy steps: 3048000. Number of games complete: 33796. Total elapsed time: 17.22660803059737 hours.
+Updating opponent policies.
+Updates complete: 636. Total policy steps: 3052800. Number of games complete: 33855. Total elapsed time: 17.25531276239289 hours.
+Updating opponent policies.
+Updates complete: 637. Total policy steps: 3057600. Number of games complete: 33911. Total elapsed time: 17.284105999999575 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 638. Total policy steps: 3062400. Number of games complete: 33957. Total elapsed time: 17.312583335373137 hours.
+Updating opponent policies.
+Updates complete: 639. Total policy steps: 3067200. Number of games complete: 34002. Total elapsed time: 17.341730178462136 hours.
+Updating opponent policies.
+Updates complete: 640. Total policy steps: 3072000. Number of games complete: 34061. Total elapsed time: 17.370602224932778 hours.
+Updating opponent policies.
+Updates complete: 641. Total policy steps: 3076800. Number of games complete: 34107. Total elapsed time: 17.39948950184716 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 642. Total policy steps: 3081600. Number of games complete: 34158. Total elapsed time: 17.4284912936555 hours.
+Updating opponent policies.
+Updates complete: 643. Total policy steps: 3086400. Number of games complete: 34217. Total elapsed time: 17.457414258387352 hours.
+Updating opponent policies.
+Updates complete: 644. Total policy steps: 3091200. Number of games complete: 34270. Total elapsed time: 17.48569723089536 hours.
+Updating opponent policies.
+Updates complete: 645. Total policy steps: 3096000. Number of games complete: 34311. Total elapsed time: 17.514537903202903 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 646. Total policy steps: 3100800. Number of games complete: 34359. Total elapsed time: 17.543231789271037 hours.
+Updating opponent policies.
+Updates complete: 647. Total policy steps: 3105600. Number of games complete: 34413. Total elapsed time: 17.57237146536509 hours.
+Updating opponent policies.
+Updates complete: 648. Total policy steps: 3110400. Number of games complete: 34457. Total elapsed time: 17.60090614027447 hours.
+Updating opponent policies.
+Updates complete: 649. Total policy steps: 3115200. Number of games complete: 34520. Total elapsed time: 17.630132239924535 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 650. Total policy steps: 3120000. Number of games complete: 34573. Total elapsed time: 17.6590207758877 hours.
+Updating opponent policies.
+Updates complete: 651. Total policy steps: 3124800. Number of games complete: 34627. Total elapsed time: 17.68799497008324 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago', '100 updates ago']
+
+
+---------------------- EVALUATION (after 650 updates) ----------------------
+32 games against random. Policy won 9/32. Avg. game length: 332.75. Avg num policy decisions: 86.59375. Avg victory points for policy: 2.75. 
+32 games against policy from 25 updates ago. Policy won 9/32. Avg. game length: 345.09375. Avg num policy decisions: 85.46875. Avg victory points for policy: 2.6875. 
+32 games against policy from 50 updates ago. Policy won 4/32. Avg. game length: 381.40625. Avg num policy decisions: 92.9375. Avg victory points for policy: 2.375. 
+32 games against policy from 100 updates ago. Policy won 8/32. Avg. game length: 392.125. Avg num policy decisions: 97.40625. Avg victory points for policy: 2.8125. 
+
+
+Updates complete: 652. Total policy steps: 3129600. Number of games complete: 34693. Total elapsed time: 17.754046484099494 hours.
+Updating opponent policies.
+Updates complete: 653. Total policy steps: 3134400. Number of games complete: 34744. Total elapsed time: 17.783149064249464 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 654. Total policy steps: 3139200. Number of games complete: 34797. Total elapsed time: 17.812365748617385 hours.
+Updating opponent policies.
+Updates complete: 655. Total policy steps: 3144000. Number of games complete: 34854. Total elapsed time: 17.841515852014222 hours.
+Updating opponent policies.
+Updates complete: 656. Total policy steps: 3148800. Number of games complete: 34908. Total elapsed time: 17.870245182116825 hours.
+Updating opponent policies.
+Updates complete: 657. Total policy steps: 3153600. Number of games complete: 34967. Total elapsed time: 17.899770715965165 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 658. Total policy steps: 3158400. Number of games complete: 35023. Total elapsed time: 17.929268807967503 hours.
+Updating opponent policies.
+Updates complete: 659. Total policy steps: 3163200. Number of games complete: 35090. Total elapsed time: 17.95839327454567 hours.
+Updating opponent policies.
+Updates complete: 660. Total policy steps: 3168000. Number of games complete: 35138. Total elapsed time: 17.987517905433972 hours.
+Updating opponent policies.
+Updates complete: 661. Total policy steps: 3172800. Number of games complete: 35192. Total elapsed time: 18.01698551575343 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 662. Total policy steps: 3177600. Number of games complete: 35246. Total elapsed time: 18.045888065033488 hours.
+Updating opponent policies.
+Updates complete: 663. Total policy steps: 3182400. Number of games complete: 35304. Total elapsed time: 18.07504176358382 hours.
+Updating opponent policies.
+Updates complete: 664. Total policy steps: 3187200. Number of games complete: 35360. Total elapsed time: 18.10409437947803 hours.
+Updating opponent policies.
+Updates complete: 665. Total policy steps: 3192000. Number of games complete: 35410. Total elapsed time: 18.13349980685446 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 666. Total policy steps: 3196800. Number of games complete: 35468. Total elapsed time: 18.162638360990417 hours.
+Updating opponent policies.
+Updates complete: 667. Total policy steps: 3201600. Number of games complete: 35522. Total elapsed time: 18.192071092194983 hours.
+Updating opponent policies.
+Updates complete: 668. Total policy steps: 3206400. Number of games complete: 35574. Total elapsed time: 18.22158844643169 hours.
+Updating opponent policies.
+Updates complete: 669. Total policy steps: 3211200. Number of games complete: 35629. Total elapsed time: 18.25117968102296 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 670. Total policy steps: 3216000. Number of games complete: 35688. Total elapsed time: 18.280789737767645 hours.
+Updating opponent policies.
+Updates complete: 671. Total policy steps: 3220800. Number of games complete: 35747. Total elapsed time: 18.309906540380585 hours.
+Updating opponent policies.
+Updates complete: 672. Total policy steps: 3225600. Number of games complete: 35789. Total elapsed time: 18.33900207797686 hours.
+Updating opponent policies.
+Updates complete: 673. Total policy steps: 3230400. Number of games complete: 35843. Total elapsed time: 18.368033776283266 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 674. Total policy steps: 3235200. Number of games complete: 35898. Total elapsed time: 18.39713617708948 hours.
+Updating opponent policies.
+Updates complete: 675. Total policy steps: 3240000. Number of games complete: 35949. Total elapsed time: 18.426179873612192 hours.
+Updating opponent policies.
+Updates complete: 676. Total policy steps: 3244800. Number of games complete: 36003. Total elapsed time: 18.455214701692263 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago', '100 updates ago']
+
+
+---------------------- EVALUATION (after 675 updates) ----------------------
+32 games against random. Policy won 4/32. Avg. game length: 348.25. Avg num policy decisions: 90.375. Avg victory points for policy: 2.375. 
+32 games against policy from 25 updates ago. Policy won 5/32. Avg. game length: 309.8125. Avg num policy decisions: 76.5625. Avg victory points for policy: 2.4375. 
+32 games against policy from 50 updates ago. Policy won 7/32. Avg. game length: 334.8125. Avg num policy decisions: 79.6875. Avg victory points for policy: 2.59375. 
+32 games against policy from 100 updates ago. Policy won 8/32. Avg. game length: 394.125. Avg num policy decisions: 96.40625. Avg victory points for policy: 2.75. 
+
+
+Updates complete: 677. Total policy steps: 3249600. Number of games complete: 36061. Total elapsed time: 18.519171420203314 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 678. Total policy steps: 3254400. Number of games complete: 36104. Total elapsed time: 18.54861885752943 hours.
+Updating opponent policies.
+Updates complete: 679. Total policy steps: 3259200. Number of games complete: 36151. Total elapsed time: 18.577620157731904 hours.
+Updating opponent policies.
+Updates complete: 680. Total policy steps: 3264000. Number of games complete: 36201. Total elapsed time: 18.606978632013004 hours.
+Updating opponent policies.
+Updates complete: 681. Total policy steps: 3268800. Number of games complete: 36253. Total elapsed time: 18.636252840558686 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 682. Total policy steps: 3273600. Number of games complete: 36306. Total elapsed time: 18.665747359461253 hours.
+Updating opponent policies.
+Updates complete: 683. Total policy steps: 3278400. Number of games complete: 36358. Total elapsed time: 18.69479295194149 hours.
+Updating opponent policies.
+Updates complete: 684. Total policy steps: 3283200. Number of games complete: 36411. Total elapsed time: 18.724119773175982 hours.
+Updating opponent policies.
+Updates complete: 685. Total policy steps: 3288000. Number of games complete: 36466. Total elapsed time: 18.75305079433653 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 686. Total policy steps: 3292800. Number of games complete: 36528. Total elapsed time: 18.78228083584044 hours.
+Updating opponent policies.
+Updates complete: 687. Total policy steps: 3297600. Number of games complete: 36575. Total elapsed time: 18.811526856952245 hours.
+Updating opponent policies.
+Updates complete: 688. Total policy steps: 3302400. Number of games complete: 36625. Total elapsed time: 18.841093704038197 hours.
+Updating opponent policies.
+Updates complete: 689. Total policy steps: 3307200. Number of games complete: 36693. Total elapsed time: 18.870402705934314 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 690. Total policy steps: 3312000. Number of games complete: 36752. Total elapsed time: 18.899668956531418 hours.
+Updating opponent policies.
+Updates complete: 691. Total policy steps: 3316800. Number of games complete: 36800. Total elapsed time: 18.92896781961123 hours.
+Updating opponent policies.
+Updates complete: 692. Total policy steps: 3321600. Number of games complete: 36854. Total elapsed time: 18.958072639041475 hours.
+Updating opponent policies.
+Updates complete: 693. Total policy steps: 3326400. Number of games complete: 36909. Total elapsed time: 18.98697234756417 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 694. Total policy steps: 3331200. Number of games complete: 36962. Total elapsed time: 19.016064698762364 hours.
+Updating opponent policies.
+Updates complete: 695. Total policy steps: 3336000. Number of games complete: 37017. Total elapsed time: 19.044965851770506 hours.
+Updating opponent policies.
+Updates complete: 696. Total policy steps: 3340800. Number of games complete: 37065. Total elapsed time: 19.07409569905864 hours.
+Updating opponent policies.
+Updates complete: 697. Total policy steps: 3345600. Number of games complete: 37122. Total elapsed time: 19.102987542086176 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 698. Total policy steps: 3350400. Number of games complete: 37175. Total elapsed time: 19.132041818565792 hours.
+Updating opponent policies.
+Updates complete: 699. Total policy steps: 3355200. Number of games complete: 37229. Total elapsed time: 19.161246617833772 hours.
+Updating opponent policies.
+Updates complete: 700. Total policy steps: 3360000. Number of games complete: 37272. Total elapsed time: 19.190341015458106 hours.
+Updating opponent policies.
+Updates complete: 701. Total policy steps: 3364800. Number of games complete: 37340. Total elapsed time: 19.219701092243195 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago', '100 updates ago']
+
+
+---------------------- EVALUATION (after 700 updates) ----------------------
+32 games against random. Policy won 7/32. Avg. game length: 415.65625. Avg num policy decisions: 105.8125. Avg victory points for policy: 2.84375. 
+32 games against policy from 25 updates ago. Policy won 6/32. Avg. game length: 329.125. Avg num policy decisions: 79.46875. Avg victory points for policy: 2.53125. 
+32 games against policy from 50 updates ago. Policy won 6/32. Avg. game length: 372.1875. Avg num policy decisions: 90.25. Avg victory points for policy: 2.59375. 
+32 games against policy from 100 updates ago. Policy won 8/32. Avg. game length: 448.71875. Avg num policy decisions: 110.65625. Avg victory points for policy: 2.8125. 
+
+
+Updates complete: 702. Total policy steps: 3369600. Number of games complete: 37396. Total elapsed time: 19.289679021504192 hours.
+Updating opponent policies.
+Updates complete: 703. Total policy steps: 3374400. Number of games complete: 37453. Total elapsed time: 19.318903286192153 hours.
+Updating opponent policies.
+Updates complete: 704. Total policy steps: 3379200. Number of games complete: 37511. Total elapsed time: 19.347990336351923 hours.
+Updating opponent policies.
+Updates complete: 705. Total policy steps: 3384000. Number of games complete: 37572. Total elapsed time: 19.3772289837069 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 706. Total policy steps: 3388800. Number of games complete: 37637. Total elapsed time: 19.40648051586416 hours.
+Updating opponent policies.
+Updates complete: 707. Total policy steps: 3393600. Number of games complete: 37685. Total elapsed time: 19.435940401885244 hours.
+Updating opponent policies.
+Updates complete: 708. Total policy steps: 3398400. Number of games complete: 37741. Total elapsed time: 19.46493315935135 hours.
+Updating opponent policies.
+Updates complete: 709. Total policy steps: 3403200. Number of games complete: 37793. Total elapsed time: 19.49438356101513 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 710. Total policy steps: 3408000. Number of games complete: 37844. Total elapsed time: 19.524043035176064 hours.
+Updating opponent policies.
+Updates complete: 711. Total policy steps: 3412800. Number of games complete: 37900. Total elapsed time: 19.553506766822604 hours.
+Updating opponent policies.
+Updates complete: 712. Total policy steps: 3417600. Number of games complete: 37942. Total elapsed time: 19.583170613182915 hours.
+Updating opponent policies.
+Updates complete: 713. Total policy steps: 3422400. Number of games complete: 38000. Total elapsed time: 19.612966152826946 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 714. Total policy steps: 3427200. Number of games complete: 38068. Total elapsed time: 19.64271965894434 hours.
+Updating opponent policies.
+Updates complete: 715. Total policy steps: 3432000. Number of games complete: 38117. Total elapsed time: 19.672317710585066 hours.
+Updating opponent policies.
+Updates complete: 716. Total policy steps: 3436800. Number of games complete: 38185. Total elapsed time: 19.702180769443512 hours.
+Updating opponent policies.
+Updates complete: 717. Total policy steps: 3441600. Number of games complete: 38246. Total elapsed time: 19.73138200018141 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 718. Total policy steps: 3446400. Number of games complete: 38299. Total elapsed time: 19.760987382200028 hours.
+Updating opponent policies.
+Updates complete: 719. Total policy steps: 3451200. Number of games complete: 38352. Total elapsed time: 19.790451947384412 hours.
+Updating opponent policies.
+Updates complete: 720. Total policy steps: 3456000. Number of games complete: 38407. Total elapsed time: 19.819650995002853 hours.
+Updating opponent policies.
+Updates complete: 721. Total policy steps: 3460800. Number of games complete: 38470. Total elapsed time: 19.848931956887245 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 722. Total policy steps: 3465600. Number of games complete: 38518. Total elapsed time: 19.878322762913175 hours.
+Updating opponent policies.
+Updates complete: 723. Total policy steps: 3470400. Number of games complete: 38574. Total elapsed time: 19.90792681508594 hours.
+Updating opponent policies.
+Updates complete: 724. Total policy steps: 3475200. Number of games complete: 38629. Total elapsed time: 19.93790490647157 hours.
+Updating opponent policies.
+Updates complete: 725. Total policy steps: 3480000. Number of games complete: 38681. Total elapsed time: 19.967477036250962 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 726. Total policy steps: 3484800. Number of games complete: 38738. Total elapsed time: 19.997136514319315 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago', '100 updates ago']
+
+
+---------------------- EVALUATION (after 725 updates) ----------------------
+32 games against random. Policy won 11/32. Avg. game length: 345.3125. Avg num policy decisions: 90.6875. Avg victory points for policy: 2.90625. 
+32 games against policy from 25 updates ago. Policy won 11/32. Avg. game length: 430.71875. Avg num policy decisions: 102.5. Avg victory points for policy: 3.0. 
+32 games against policy from 50 updates ago. Policy won 7/32. Avg. game length: 349.15625. Avg num policy decisions: 86.9375. Avg victory points for policy: 2.65625. 
+32 games against policy from 100 updates ago. Policy won 6/32. Avg. game length: 358.78125. Avg num policy decisions: 88.8125. Avg victory points for policy: 2.59375. 
+
+
+Updates complete: 727. Total policy steps: 3489600. Number of games complete: 38794. Total elapsed time: 20.065651664468977 hours.
+Updating opponent policies.
+Updates complete: 728. Total policy steps: 3494400. Number of games complete: 38843. Total elapsed time: 20.095164299872188 hours.
+Updating opponent policies.
+Updates complete: 729. Total policy steps: 3499200. Number of games complete: 38902. Total elapsed time: 20.12252588417795 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 730. Total policy steps: 3504000. Number of games complete: 38957. Total elapsed time: 20.149075990186798 hours.
+Updating opponent policies.
+Updates complete: 731. Total policy steps: 3508800. Number of games complete: 39011. Total elapsed time: 20.17560393710931 hours.
+Updating opponent policies.
+Updates complete: 732. Total policy steps: 3513600. Number of games complete: 39057. Total elapsed time: 20.201897959444256 hours.
+Updating opponent policies.
+Updates complete: 733. Total policy steps: 3518400. Number of games complete: 39108. Total elapsed time: 20.228001418643526 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 734. Total policy steps: 3523200. Number of games complete: 39169. Total elapsed time: 20.254504137370322 hours.
+Updating opponent policies.
+Updates complete: 735. Total policy steps: 3528000. Number of games complete: 39219. Total elapsed time: 20.280800175799264 hours.
+Updating opponent policies.
+Updates complete: 736. Total policy steps: 3532800. Number of games complete: 39278. Total elapsed time: 20.307493775486947 hours.
+Updating opponent policies.
+Updates complete: 737. Total policy steps: 3537600. Number of games complete: 39333. Total elapsed time: 20.3336928847101 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 738. Total policy steps: 3542400. Number of games complete: 39375. Total elapsed time: 20.359535944461822 hours.
+Updating opponent policies.
+Updates complete: 739. Total policy steps: 3547200. Number of games complete: 39437. Total elapsed time: 20.385720967451732 hours.
+Updating opponent policies.
+Updates complete: 740. Total policy steps: 3552000. Number of games complete: 39492. Total elapsed time: 20.413309013777308 hours.
+Updating opponent policies.
+Updates complete: 741. Total policy steps: 3556800. Number of games complete: 39552. Total elapsed time: 20.439847425487308 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 742. Total policy steps: 3561600. Number of games complete: 39604. Total elapsed time: 20.466183944675656 hours.
+Updating opponent policies.
+Updates complete: 743. Total policy steps: 3566400. Number of games complete: 39654. Total elapsed time: 20.49243803726302 hours.
+Updating opponent policies.
+Updates complete: 744. Total policy steps: 3571200. Number of games complete: 39715. Total elapsed time: 20.518757863110967 hours.
+Updating opponent policies.
+Updates complete: 745. Total policy steps: 3576000. Number of games complete: 39770. Total elapsed time: 20.54543155418502 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 746. Total policy steps: 3580800. Number of games complete: 39820. Total elapsed time: 20.5719446349144 hours.
+Updating opponent policies.
+Updates complete: 747. Total policy steps: 3585600. Number of games complete: 39884. Total elapsed time: 20.598357893162305 hours.
+Updating opponent policies.
+Updates complete: 748. Total policy steps: 3590400. Number of games complete: 39943. Total elapsed time: 20.624632721278402 hours.
+Updating opponent policies.
+Updates complete: 749. Total policy steps: 3595200. Number of games complete: 40002. Total elapsed time: 20.651275518669024 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 750. Total policy steps: 3600000. Number of games complete: 40058. Total elapsed time: 20.677339301043087 hours.
+Updating opponent policies.
+Updates complete: 751. Total policy steps: 3604800. Number of games complete: 40113. Total elapsed time: 20.703301485180855 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago', '100 updates ago']
+
+
+---------------------- EVALUATION (after 750 updates) ----------------------
+32 games against random. Policy won 13/32. Avg. game length: 338.90625. Avg num policy decisions: 88.5625. Avg victory points for policy: 2.9375. 
+32 games against policy from 25 updates ago. Policy won 7/32. Avg. game length: 363.96875. Avg num policy decisions: 91.25. Avg victory points for policy: 2.8125. 
+32 games against policy from 50 updates ago. Policy won 8/32. Avg. game length: 358.46875. Avg num policy decisions: 89.65625. Avg victory points for policy: 2.78125. 
+32 games against policy from 100 updates ago. Policy won 9/32. Avg. game length: 327.1875. Avg num policy decisions: 83.46875. Avg victory points for policy: 2.875. 
+
+
+Updates complete: 752. Total policy steps: 3609600. Number of games complete: 40165. Total elapsed time: 20.75985891905096 hours.
+Updating opponent policies.
+Updates complete: 753. Total policy steps: 3614400. Number of games complete: 40222. Total elapsed time: 20.78588957892524 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 754. Total policy steps: 3619200. Number of games complete: 40283. Total elapsed time: 20.81222705549664 hours.
+Updating opponent policies.
+Updates complete: 755. Total policy steps: 3624000. Number of games complete: 40333. Total elapsed time: 20.838897068964112 hours.
+Updating opponent policies.
+Updates complete: 756. Total policy steps: 3628800. Number of games complete: 40400. Total elapsed time: 20.865456218851936 hours.
+Updating opponent policies.
+Updates complete: 757. Total policy steps: 3633600. Number of games complete: 40456. Total elapsed time: 20.892463347448242 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 758. Total policy steps: 3638400. Number of games complete: 40521. Total elapsed time: 20.919248234497175 hours.
+Updating opponent policies.
+Updates complete: 759. Total policy steps: 3643200. Number of games complete: 40577. Total elapsed time: 20.94549850927459 hours.
+Updating opponent policies.
+Updates complete: 760. Total policy steps: 3648000. Number of games complete: 40642. Total elapsed time: 20.97210808177789 hours.
+Updating opponent policies.
+Updates complete: 761. Total policy steps: 3652800. Number of games complete: 40693. Total elapsed time: 20.99860671573215 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 762. Total policy steps: 3657600. Number of games complete: 40759. Total elapsed time: 21.02521403114001 hours.
+Updating opponent policies.
+Updates complete: 763. Total policy steps: 3662400. Number of games complete: 40820. Total elapsed time: 21.051616389552752 hours.
+Updating opponent policies.
+Updates complete: 764. Total policy steps: 3667200. Number of games complete: 40872. Total elapsed time: 21.078048204779623 hours.
+Updating opponent policies.
+Updates complete: 765. Total policy steps: 3672000. Number of games complete: 40921. Total elapsed time: 21.104211875862546 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 766. Total policy steps: 3676800. Number of games complete: 40980. Total elapsed time: 21.130728973878753 hours.
+Updating opponent policies.
+Updates complete: 767. Total policy steps: 3681600. Number of games complete: 41030. Total elapsed time: 21.157182257506584 hours.
+Updating opponent policies.
+Updates complete: 768. Total policy steps: 3686400. Number of games complete: 41100. Total elapsed time: 21.184005319807266 hours.
+Updating opponent policies.
+Updates complete: 769. Total policy steps: 3691200. Number of games complete: 41158. Total elapsed time: 21.210265361799134 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 770. Total policy steps: 3696000. Number of games complete: 41206. Total elapsed time: 21.236681006815697 hours.
+Updating opponent policies.
+Updates complete: 771. Total policy steps: 3700800. Number of games complete: 41261. Total elapsed time: 21.263011407719716 hours.
+Updating opponent policies.
+Updates complete: 772. Total policy steps: 3705600. Number of games complete: 41312. Total elapsed time: 21.289173406826126 hours.
+Updating opponent policies.
+Updates complete: 773. Total policy steps: 3710400. Number of games complete: 41373. Total elapsed time: 21.315791505773863 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 774. Total policy steps: 3715200. Number of games complete: 41431. Total elapsed time: 21.34258188009262 hours.
+Updating opponent policies.
+Updates complete: 775. Total policy steps: 3720000. Number of games complete: 41483. Total elapsed time: 21.36888688908683 hours.
+Updating opponent policies.
+Updates complete: 776. Total policy steps: 3724800. Number of games complete: 41536. Total elapsed time: 21.395187119311757 hours.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago', '100 updates ago']
+
+
+---------------------- EVALUATION (after 775 updates) ----------------------
+32 games against random. Policy won 13/32. Avg. game length: 347.1875. Avg num policy decisions: 91.125. Avg victory points for policy: 3.0625. 
+32 games against policy from 25 updates ago. Policy won 7/32. Avg. game length: 336.96875. Avg num policy decisions: 81.3125. Avg victory points for policy: 2.78125. 
+32 games against policy from 50 updates ago. Policy won 11/32. Avg. game length: 413.375. Avg num policy decisions: 99.78125. Avg victory points for policy: 2.875. 
+32 games against policy from 100 updates ago. Policy won 7/32. Avg. game length: 381.21875. Avg num policy decisions: 93.96875. Avg victory points for policy: 2.59375. 
+
+
+Updates complete: 777. Total policy steps: 3729600. Number of games complete: 41592. Total elapsed time: 21.454925627443526 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 778. Total policy steps: 3734400. Number of games complete: 41650. Total elapsed time: 21.48152690105968 hours.
+Updating opponent policies.
+Updates complete: 779. Total policy steps: 3739200. Number of games complete: 41707. Total elapsed time: 21.508078345656394 hours.
+Updating opponent policies.
+Updates complete: 780. Total policy steps: 3744000. Number of games complete: 41762. Total elapsed time: 21.534589642418755 hours.
+Updating opponent policies.
+Updates complete: 781. Total policy steps: 3748800. Number of games complete: 41825. Total elapsed time: 21.561021832757525 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 782. Total policy steps: 3753600. Number of games complete: 41877. Total elapsed time: 21.58764663391643 hours.
+Updating opponent policies.
+Updates complete: 783. Total policy steps: 3758400. Number of games complete: 41925. Total elapsed time: 21.61407623814212 hours.
+Updating opponent policies.
+Updates complete: 784. Total policy steps: 3763200. Number of games complete: 41991. Total elapsed time: 21.640690758890575 hours.
+Updating opponent policies.
+Updates complete: 785. Total policy steps: 3768000. Number of games complete: 42040. Total elapsed time: 21.666976224647627 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 786. Total policy steps: 3772800. Number of games complete: 42090. Total elapsed time: 21.69359041121271 hours.
+Updating opponent policies.
+Updates complete: 787. Total policy steps: 3777600. Number of games complete: 42150. Total elapsed time: 21.720076460308498 hours.
+Updating opponent policies.
+Updates complete: 788. Total policy steps: 3782400. Number of games complete: 42206. Total elapsed time: 21.74666581696934 hours.
+Updating opponent policies.
+Updates complete: 789. Total policy steps: 3787200. Number of games complete: 42267. Total elapsed time: 21.772898179093996 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 790. Total policy steps: 3792000. Number of games complete: 42332. Total elapsed time: 21.79996588435438 hours.
+Updating opponent policies.
+Updates complete: 791. Total policy steps: 3796800. Number of games complete: 42383. Total elapsed time: 21.826924132506054 hours.
+Updating opponent policies.
+Updates complete: 792. Total policy steps: 3801600. Number of games complete: 42428. Total elapsed time: 21.854149012565614 hours.
+Updating opponent policies.
+Updates complete: 793. Total policy steps: 3806400. Number of games complete: 42474. Total elapsed time: 21.880706501139535 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 794. Total policy steps: 3811200. Number of games complete: 42525. Total elapsed time: 21.907907435496647 hours.
+Updating opponent policies.
+Updates complete: 795. Total policy steps: 3816000. Number of games complete: 42569. Total elapsed time: 21.934720402028827 hours.
+Updating opponent policies.
+Updates complete: 796. Total policy steps: 3820800. Number of games complete: 42642. Total elapsed time: 21.96151333603594 hours.
+Updating opponent policies.
+Updates complete: 797. Total policy steps: 3825600. Number of games complete: 42698. Total elapsed time: 21.988378795782726 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Updates complete: 798. Total policy steps: 3830400. Number of games complete: 42752. Total elapsed time: 22.0150598763095 hours.
+Updating opponent policies.
+Updates complete: 799. Total policy steps: 3835200. Number of games complete: 42804. Total elapsed time: 22.04189042568207 hours.
+Updating opponent policies.
+Updates complete: 800. Total policy steps: 3840000. Number of games complete: 42865. Total elapsed time: 22.069124701221785 hours.
+Updating opponent policies.
+Updates complete: 801. Total policy steps: 3844800. Number of games complete: 42917. Total elapsed time: 22.095715351568327 hours.
+Adding policy to earlier policies.
+Updating opponent policies.
+Playing against opponents: ['random', '25 updates ago', '50 updates ago', '100 updates ago']
